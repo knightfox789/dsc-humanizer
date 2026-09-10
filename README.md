@@ -13,11 +13,29 @@ It is designed especially for:
 - water, agriculture, NRM and development-sector documentation;
 - technical notes and methodology write-ups;
 - case studies and project stories;
+- Governing Board and management notes;
+- donor observations and compliance responses;
 - web articles;
 - LinkedIn and professional posts;
 - field notes and concise professional communication.
 
 The skill is intended to improve authentic writing quality. It is not designed to bypass AI-detection systems.
+
+## v0.2.0 — Kaushal Voice
+
+Version 0.2.0 adds a dedicated `kaushal-voice` profile based on recurring strengths identified across prior professional writing samples. Project-specific text is not copied into the public profile; the skill captures writing habits instead.
+
+The profile favours:
+- evidence before adjectives;
+- technical reasoning connected to field conditions;
+- practical `context → action → evidence → meaning → next step` flow;
+- accurate roles for community institutions and government/convergence partners;
+- calm acknowledgement of documentation or implementation gaps;
+- explicit distinction between what is measured, estimated, expected, reported, or still to be verified;
+- restrained development-sector language;
+- Indian English conventions unless another house style is requested.
+
+See [`references/kaushal-voice.md`](references/kaushal-voice.md).
 
 ## Repository structure
 
@@ -34,7 +52,8 @@ dsc-humanizer/
 │   └── ISSUE_TEMPLATE/
 │       └── improvement.md
 ├── prompts/
-│   └── quick-start.md
+│   ├── quick-start.md
+│   └── kaushal-voice.md
 ├── examples/
 │   └── examples.md
 ├── references/
@@ -42,6 +61,7 @@ dsc-humanizer/
 │   ├── case-study-style.md
 │   ├── donor-report-style.md
 │   ├── fact-preservation.md
+│   ├── kaushal-voice.md
 │   └── technical-writing-style.md
 └── tests/
     └── evaluation-cases.md
@@ -51,7 +71,7 @@ dsc-humanizer/
 
 For an agent or workflow that supports `SKILL.md`-style skills, use this repository as the skill source and load `SKILL.md` as the primary instruction file. The files under `references/` provide additional domain and style guidance.
 
-You can also use the skill manually by referencing it in your prompt:
+### General donor-report mode
 
 ```text
 Use dsc-humanizer.
@@ -66,7 +86,37 @@ Rewrite:
 [paste draft]
 ```
 
-More ready-to-use prompts are available in [`prompts/quick-start.md`](prompts/quick-start.md).
+### Kaushal voice
+
+```text
+Use dsc-humanizer.
+
+mode: kaushal-voice
+strength: medium
+audience: donor / CSR partner
+priority: evidence, technical clarity, outcome, implementation quality, next step
+preserve_terms: [add project-specific terms]
+
+Rewrite:
+[paste draft]
+```
+
+For donor observations or compliance responses:
+
+```text
+Use dsc-humanizer.
+
+mode: kaushal-voice
+strength: medium
+audience: donor / reviewer
+response_type: observation-response
+priority: acknowledge valid gap, explain evidence, distinguish documentation from technical issue where justified, state corrective action
+
+Rewrite:
+[paste observation and draft response]
+```
+
+More prompt recipes are available in [`prompts/quick-start.md`](prompts/quick-start.md) and [`prompts/kaushal-voice.md`](prompts/kaushal-voice.md).
 
 ## Writing modes
 
@@ -80,20 +130,20 @@ More ready-to-use prompts are available in [`prompts/quick-start.md`](prompts/qu
 | `linkedin` | Concise professional social posts |
 | `concise` | Shortening while preserving meaning |
 | `field-note` | Practical, grounded field documentation |
-| `kaushal-voice` | Direct, technically informed writing with minimal hype |
+| `kaushal-voice` | Evidence-first, technically grounded practitioner writing |
 
 ## Editing strength
 
 - **Light** — fixes grammar, repetition, rhythm and obvious AI-style wording while preserving structure.
-- **Medium** — rewrites sentences and paragraphs for stronger flow while preserving facts and organization.
-- **Deep** — can reorganize paragraphs and structure while keeping supported facts and technical meaning intact.
+- **Medium** — rewrites sentences and paragraphs for stronger flow while preserving facts and organisation.
+- **Deep** — can reorganise paragraphs and structure while keeping supported facts and technical meaning intact.
 
 Default strength: `medium`.
 
 ## Fact-lock principle
 
 Before rewriting, the skill protects:
-- names and organizations;
+- names and organisations;
 - places and project titles;
 - dates and periods;
 - numbers, percentages and financial values;
@@ -101,7 +151,8 @@ Before rewriting, the skill protects:
 - formulas and indicators;
 - technical terminology;
 - quotations and attribution;
-- supported causal claims.
+- supported causal claims;
+- qualifiers such as `estimated`, `expected`, `reported`, `approximately`, `preliminary`, and `may`.
 
 The skill must not turn an activity into an outcome, an output into an impact, or uncertainty into certainty.
 
@@ -109,7 +160,7 @@ See [`references/fact-preservation.md`](references/fact-preservation.md) for the
 
 ## Domain-aware writing
 
-The skill includes specific protection for terminology used in water security, agriculture, watershed, NRM, PIM and natural-farming documentation. Terms such as `water budget`, `groundwater`, `static water level`, `crop-water demand`, `adoption area`, `water saving`, `Sujal Samiti`, `PRA`, `FGD`, `KPI` and `baseline` should not be replaced with vague language when they carry technical meaning.
+The skill includes specific protection for terminology used in water security, agriculture, watershed, NRM, PIM and natural-farming documentation. Terms such as `water budget`, `groundwater`, `static water level`, `crop-water demand`, `adoption area`, `water saving`, `Sujal Samiti`, `Water User Group`, `Measurement Book`, `PRA`, `FGD`, `KPI` and `baseline` should not be replaced with vague language when they carry technical meaning.
 
 ## Quality checks
 
@@ -117,12 +168,16 @@ Changes to the skill should be checked against [`tests/evaluation-cases.md`](tes
 - exact preservation of figures and units;
 - preservation of technical terminology;
 - reduction of inflated AI-style language;
-- distinction between activities and outcomes;
-- preservation of uncertainty.
+- distinction among activity, output, outcome and impact;
+- preservation of uncertainty;
+- evidence-first Kaushal-voice writing;
+- accountable handling of review observations;
+- field-condition reasoning without invented technical evidence;
+- accurate institutional roles.
 
 ## Versioning
 
-Current version: **0.1.0**
+Current version: **0.2.0**
 
 This repository follows Semantic Versioning:
 - PATCH — wording fixes and small rule improvements;
