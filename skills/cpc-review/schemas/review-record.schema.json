@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DSC CPC Review Record",
+  "type": "object",
+  "required": ["review_date", "state", "project_unit", "procurement_reference", "cpc_verdict", "final_status", "items"],
+  "properties": {
+    "procurement_id": {"type": "string"},
+    "review_date": {"type": "string", "format": "date"},
+    "procurement_date": {"type": "string", "format": "date"},
+    "financial_year": {"type": "string"},
+    "quarter": {"enum": ["Q1", "Q2", "Q3", "Q4"]},
+    "state": {"type": "string", "minLength": 1},
+    "project_unit": {"type": "string", "minLength": 1},
+    "district": {"type": "string"},
+    "project_name": {"type": "string"},
+    "funding_partner": {"type": "string"},
+    "procurement_category": {"type": "string"},
+    "procurement_reference": {"type": "string", "minLength": 1},
+    "approved_budget_value": {"type": ["number", "string"]},
+    "currency": {"type": "string", "default": "INR"},
+    "proposed_vendor": {"type": "string"},
+    "proposed_amount": {"type": ["number", "string"]},
+    "cpc_verdict": {"enum": ["GREEN", "AMBER", "RED"]},
+    "final_status": {"type": "string"},
+    "price_reasonableness_status": {"type": "string"},
+    "source_reference": {"type": "string"},
+    "items": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["normalized_item_name", "canonical_unit"],
+        "properties": {
+          "item_id": {"type": "string"},
+          "original_item_description": {"type": "string"},
+          "normalized_item_name": {"type": "string", "minLength": 1},
+          "item_category": {"type": "string"},
+          "specification": {"type": "string"},
+          "specification_key": {"type": "string"},
+          "quantity": {"type": ["number", "string"]},
+          "canonical_unit": {"type": "string", "minLength": 1},
+          "responsive_l1_landed_unit_rate": {"type": ["number", "string"]},
+          "quotes": {"type": "array", "items": {"type": "object", "required": ["vendor_name"]}},
+          "award": {"type": "object"}
+        }
+      }
+    }
+  }
+}
