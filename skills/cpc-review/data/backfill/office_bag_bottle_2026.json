@@ -1,0 +1,60 @@
+{
+  "procurement_id": "PROC-HIST-GJ-VIS-2026-01-BAG-BOTTLE",
+  "review_date": "2026-02-11",
+  "procurement_date": "2026-01-29",
+  "state": "Gujarat",
+  "project_unit": "Visnagar / North Gujarat PUs",
+  "district": "Mahesana",
+  "project_name": "BCI Programme - Staff Welfare / Staff Kit",
+  "funding_partner": "BCI",
+  "procurement_category": "Staff kit / office supplies",
+  "procurement_reference": "Office bag and bottle purchase - purchase note/comparative summary 29-01-2026",
+  "approved_budget_value": "",
+  "currency": "INR",
+  "proposed_vendor": "Item-wise L1: Mehul Vasan Bhandar (bottle); ASE Enterprise (bag)",
+  "proposed_amount": "",
+  "cpc_verdict": "AMBER",
+  "final_status": "pending",
+  "price_reasonableness_status": "partially established",
+  "source_reference": "Gmail - Fwd_ office bag and bottle purchase(2).pdf; CPC response 11-02-2026 and follow-up 24-02-2026. Historical AMBER mapping reflects bottle allowed to proceed while bag required quality/rate justification. No final PO/payment evidence recovered.",
+  "items": [
+    {
+      "original_item_description": "Cold water bottle",
+      "normalized_item_name": "office water bottle",
+      "item_category": "Staff kit",
+      "specification": "Detailed bottle specification not recovered. CPC email records L1 vendor Mehul Vasan Bhandar at a rate of ₹750 for 70 quantity; GST was stated as included but GSTIN was initially missing.",
+      "specification_key": "UNSPECIFIED",
+      "quantity": 70,
+      "canonical_unit": "unit",
+      "responsive_l1_landed_unit_rate": 750,
+      "quotes": [
+        {
+          "vendor_name": "Mehul Vasan Bhandar",
+          "quote_date": "2026-01-23",
+          "base_unit_rate": 750,
+          "gst_percent": 0,
+          "freight_per_unit": 0,
+          "installation_per_unit": 0,
+          "other_per_unit": 0,
+          "discount_per_unit": 0,
+          "landed_unit_rate": 750,
+          "responsiveness": "Responsive subject to GSTIN documentation",
+          "numerical_rank": 1,
+          "responsive_rank": 1,
+          "benchmark_reference_only": true,
+          "source_document": "CPC email dated 11-02-2026; rate stated as ₹750 for 70 QTY. Tax split not recovered."
+        }
+      ]
+    },
+    {
+      "original_item_description": "Office bag",
+      "normalized_item_name": "office staff bag",
+      "item_category": "Staff kit",
+      "specification": "Detailed bag specification, quantity and rate not recovered from saved evidence. ASE Enterprise is identified as the L1 vendor; CPC required sample/quality verification and comparison with previous Mehsana-Visnagar purchase before proceeding.",
+      "specification_key": "UNSPECIFIED",
+      "quantity": 0,
+      "canonical_unit": "unit",
+      "quotes": []
+    }
+  ]
+}
