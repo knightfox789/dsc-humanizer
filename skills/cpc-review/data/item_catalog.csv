@@ -1,1 +1,5 @@
 item_id,normalized_item_name,item_category,canonical_unit,specification_key,standard_specification,active,notes,last_updated
+ITEM-BDBB344470B0,office water bottle,Staff kit,unit,UNSPECIFIED,Detailed bottle specification not recovered. CPC email records L1 vendor Mehul Vasan Bhandar at a rate of ₹750 for 70 quantity; GST was stated as included but GSTIN was initially missing.,Y,,2026-09-11
+ITEM-8A23D2907380,office staff bag,Staff kit,unit,UNSPECIFIED,"Detailed bag specification, quantity and rate not recovered from saved evidence. ASE Enterprise is identified as the L1 vendor; CPC required sample/quality verification and comparison with previous Mehsana-Visnagar purchase before proceeding.",Y,,2026-09-11
+ITEM-A5500989C3EA,laptop computer,IT equipment,unit,LAPTOP-I3-8GB-512SSD-15.6IN-BAG-1YR-V1,Intel Core i3; 8 GB RAM; 512 GB SSD; 15.6-inch display; bag; 1-year warranty. HP 15-FD0624TU quoted by two vendors; Dell DC15250 quoted by Computer Bazar.,Y,,2026-09-11
+ITEM-EA4941B4391B,grass seeding biodiversity,Biodiversity / field activity,UNSPECIFIED,UNSPECIFIED,"Scope, unit, quantity, vendor names and rates not recovered from saved evidence.",Y,,2026-09-11
