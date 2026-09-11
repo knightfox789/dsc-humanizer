@@ -4,6 +4,28 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.5.0] - 2026-09-11
+
+### Added
+- CPC procurement-intelligence data layer using Git-versioned CSV source tables.
+- `procurement_reviews.csv`, `item_quotes.csv`, `awards.csv`, item/vendor masters and item-alias normalization.
+- Generated `master_item_history.csv` for fast recurring-item benchmarking.
+- `comparison_config.json` with a 24-month default window and 10/20/30% variance review bands.
+- Historical comparison engine showing latest/median/mean/min/max rates, same-state vs DSC-wide counts, variance flags and comparison confidence.
+- Automatic master-update script with controlled benchmark eligibility.
+- End-to-end pipeline script for compare → finalize → master update → Excel rebuild.
+- Structured JSON review-record schema and template.
+- Generated `CPC_Master_Procurement_Register.xlsx` analyst workbook.
+- GitHub Actions validation workflow and unit tests.
+- Procurement-intelligence reference guidance and historical-comparison rules.
+
+### Changed
+- CPC review now checks historical master data for recurring items before final verdict when reliable comparables exist.
+- CPC output adds a dedicated Historical Price Intelligence section.
+- Historical variance is explicitly a review signal, not an automatic rejection rule.
+- Only finalized/approved awards normally become benchmark-eligible records.
+- Repository version bumped to 0.5.0.
+
 ## [0.4.0] - 2026-09-11
 
 ### Changed
