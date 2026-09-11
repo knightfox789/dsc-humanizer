@@ -1,17 +1,17 @@
 ---
 name: cpc-review
-description: Independently review DSC Maharashtra Central Procurement Committee (CPC) proposals and approval packs. Read all available procurement documents before concluding; verify requirement, scope, specifications, quotations, arithmetic, technical responsiveness, commercial terms, price reasonableness, L1, documentation gaps, red flags, GREEN/AMBER/RED verdict, CPC observation and recommendation.
+description: Independently review Development Support Centre (DSC) Central Procurement Committee (CPC) proposals across all DSC project states and programmes. Read all available procurement documents before concluding; verify requirement, scope, specifications, quotations, arithmetic, technical responsiveness, commercial terms, price reasonableness, L1, documentation gaps, red flags, GREEN/AMBER/RED verdict, CPC observation and recommendation.
 ---
 
-# DSC Maharashtra CPC Review Skill
+# DSC Central Procurement Committee (CPC) Review Skill
 
 ## Purpose
 
-Use this skill whenever a new Maharashtra Central Procurement Committee (CPC) approval email, procurement proposal, purchase note, comparative statement, or vendor-selection pack needs review.
+Use this skill whenever a DSC Central Procurement Committee (CPC) approval email, procurement proposal, purchase note, comparative statement, vendor-selection pack, rate approval, work procurement, service procurement, or material procurement needs independent review.
 
-The review must be independent and evidence-based. Do not accept the Purchase Note, comparative statement, proposed L1, or field team's conclusion at face value.
+This skill applies across **all DSC project states, units, donors and programmes**. It is not limited to Maharashtra.
 
-Trace conclusions back to source documents.
+The review must be independent and evidence-based. Do not accept the Purchase Note, comparative statement, proposed L1, or field team's conclusion at face value. Trace conclusions back to source documents.
 
 ## Core rule
 
@@ -19,42 +19,76 @@ Trace conclusions back to source documents.
 
 If a fact is missing, say it is not verified. Do not assume it.
 
+## DSC-wide scope
+
+Apply the same core CPC review principles across DSC operations, while recognising that individual procurements may be governed by different:
+- state/project operating arrangements;
+- donor or CSR procurement conditions;
+- project agreements and approved budgets;
+- DSC procurement SOPs / delegation limits;
+- technical specifications;
+- statutory or tax requirements;
+- local market conditions;
+- approved vendor or programme-specific requirements.
+
+Do **not** invent a state-specific rule, donor rule, financial threshold, or approval authority. If the applicable rule is not present in the documents, mark it as `not verified` and request the relevant policy/approval evidence where material.
+
+The review should identify the **state, project/unit and funding partner** when this information is available, so the recommendation is properly contextualised.
+
 ## Required review behaviour
 
 1. Read **all available documents completely** before giving a final conclusion.
-2. Build a document/source map before evaluating L1.
-3. Reconcile requirement, quantity, unit, pack size and scope across documents.
-4. Compare every vendor against the same specification and complete scope.
-5. Recalculate arithmetic independently.
-6. Compare the comparative statement back to each original quotation.
-7. Separate technical responsiveness from price ranking.
-8. Determine L1 only among technically and commercially responsive bids.
-9. Separate **L1 correctness** from **price reasonableness**.
-10. Identify missing approvals, missing records, inconsistencies and procurement red flags.
-11. Where technical suitability cannot be established from the file, recommend expert validation rather than guessing.
-12. Give a clear GREEN / AMBER / RED verdict and a practical CPC recommendation.
+2. Identify the state, project/unit, funding partner and procurement category where available.
+3. Build a document/source map before evaluating L1.
+4. Reconcile requirement, quantity, unit, pack size and scope across documents.
+5. Compare every vendor against the same specification and complete scope.
+6. Recalculate arithmetic independently.
+7. Compare the comparative statement back to each original quotation.
+8. Separate technical responsiveness from price ranking.
+9. Determine L1 only among technically and commercially responsive bids.
+10. Separate **L1 correctness** from **price reasonableness**.
+11. Identify missing approvals, records, inconsistencies and procurement red flags.
+12. Where technical suitability cannot be established from the file, recommend expert validation rather than guessing.
+13. Check whether any project-, donor-, state- or unit-specific procurement condition is evidenced in the file and whether it has been followed.
+14. Give a clear GREEN / AMBER / RED verdict and a practical CPC recommendation.
 
 ## Evidence hierarchy
 
 When documents conflict, prefer primary evidence over summaries:
 
 1. Approved requisition / sanctioned requirement / approved budget or procurement plan
-2. RFQ / enquiry / specification / BoQ / scope issued to vendors
-3. Original vendor quotations and written revisions
-4. Written negotiation record / purchase committee minutes / technical expert note
-5. Comparative statement
-6. Purchase Note / approval summary / forwarding email
+2. Applicable procurement SOP / donor condition / delegated approval, where provided
+3. RFQ / enquiry / specification / BoQ / scope issued to vendors
+4. Original vendor quotations and written revisions
+5. Written negotiation record / purchase committee minutes / technical expert note
+6. Comparative statement
+7. Purchase Note / approval summary / forwarding email
 
 A comparative statement is a derived document. It must be verified against source quotations.
 
 ## Mandatory review sequence
 
-### A. Document completeness and source map
+### A. Procurement identity and context
+
+Record, where available:
+- state;
+- DSC unit / district / project;
+- funding partner / donor;
+- procurement item / service / work;
+- procurement category;
+- estimated or approved value;
+- approval authority / committee route;
+- whether any donor/project-specific procurement requirement applies.
+
+If any of these are relevant but missing, flag them.
+
+### B. Document completeness and source map
 
 Identify which of the following are present and which are missing:
 - forwarding / approval email;
 - Purchase Note / Purchase Requisition;
 - approved budget or procurement plan;
+- applicable procurement policy / donor condition, where relevant;
 - RFQ / enquiry;
 - all quotations received;
 - technical specifications / BoQ / scope;
@@ -70,103 +104,131 @@ Classify missing documents as:
 - **Material but correctable** — should be corrected before PO / Work Order;
 - **Informational** — useful but not approval-blocking in the present case.
 
-### B. Requirement and approval check
+### C. Requirement and approval check
 
 Verify:
 - requirement is clearly defined;
 - quantity and unit match the approved requisition;
 - pack size / litre / kg / number / set / lot are consistent;
 - budget or procurement plan matches the detailed requirement;
-- competent approval is evident;
-- no unexplained quantity or scope change occurred after approval.
+- competent approval is evidenced where required;
+- project/state/unit references are internally consistent;
+- scope has not changed after quotation without a documented reason and equal treatment of vendors.
 
-### C. Specification and scope check
+### D. Specification and scope check
 
-Check:
-- all vendors were asked to quote the same technical specification;
-- scope is sufficiently detailed for fair comparison;
-- brand restrictions are justified or allow equivalent products where appropriate;
-- warranty, installation, testing, delivery, accessories, commissioning and service requirements are defined where relevant;
-- technical expert validation is available where the item/system requires it.
+Verify:
+- all vendors quoted against the same specification;
+- specifications are sufficiently detailed for fair comparison;
+- every material component of the required scope is covered;
+- brand-specific requirements are technically justified or allow equivalent products where appropriate;
+- warranty, installation, testing, delivery, commissioning, accessories, service and performance requirements are defined where relevant;
+- specialist technical validation is obtained when CPC cannot independently establish suitability.
 
-### D. Quotation process check
+Do not treat a lower financial quote as responsive merely because it is cheaper.
+
+### E. Quotation process check
 
 Review:
 - number of quotations received;
 - quotation dates and validity;
-- vendor identity;
-- whether quotations appear independent and authentic;
-- whether each quotation covers the full scope;
-- whether any quote is conditional or incomplete;
-- whether revised / negotiated rates are supported in writing;
-- unusual similarities, altered figures or unexplained changes.
+- vendor identity and independence;
+- whether quotations cover the full scope;
+- conditional or excluded items;
+- handwritten / altered / revised figures;
+- unusually similar language, layout, rates or errors across quotations;
+- written support for negotiated / revised rates;
+- chronology of RFQ, quotations, opening, negotiation and approval;
+- whether each vendor had an equivalent opportunity to quote the same requirement.
 
-Do not infer collusion merely from formatting similarities. Flag it as a concern requiring verification when evidence is insufficient.
+Flag any concern without alleging misconduct unless the evidence supports it.
 
-### E. Arithmetic and landed-cost check
+### F. Arithmetic and landed-cost verification
 
-Recalculate independently for each vendor:
+Recalculate independently for every vendor:
 - quantity × unit rate;
+- line totals;
 - subtotals;
 - GST / taxes;
 - freight / transport;
+- loading / unloading;
 - installation;
-- accessories / commissioning;
+- testing / commissioning;
+- accessories;
 - discounts;
 - other charges;
-- final landed / turnkey cost.
+- final landed / turnkey / evaluated cost.
 
-Do not rely on arithmetic in the comparative statement without checking it.
+Never rely only on the comparative statement.
 
-### F. Technical and commercial responsiveness
+If a tax-inclusive and tax-exclusive quote are compared, normalise them to the same evaluated basis.
 
-Classify every vendor as one of:
+### G. Source quotation vs comparative statement
+
+For each vendor verify that the comparative statement matches the original quotation for:
+- rate;
+- quantity;
+- tax;
+- freight;
+- installation;
+- discounts;
+- scope inclusions / exclusions;
+- payment terms;
+- delivery period;
+- warranty;
+- validity;
+- final evaluated amount.
+
+Any unexplained mismatch must be reported.
+
+### H. Technical and commercial responsiveness
+
+Classify each bid as:
 - **Responsive**;
 - **Responsive subject to clarification**;
 - **Non-responsive / incomplete**.
 
-A lower-priced quotation is not the valid L1 if it does not meet the required specification, quantity, scope or essential commercial conditions.
+A financially lower quotation must not be treated as L1 if it materially fails the required specification, scope, eligibility or commercial basis.
 
-### G. L1 verification
+### I. L1 determination
 
-Distinguish between:
-- **Numerical L1** — the lowest visible price before responsiveness checks;
-- **Responsive L1** — the lowest technically and commercially acceptable bid.
+Determine:
+- **Numerical L1** — lowest arithmetic total before responsiveness assessment;
+- **Responsive L1** — lowest evaluated bidder that meets required technical and commercial conditions.
 
-Determine whether award should be:
-- package-wise L1; or
-- item-wise L1, only where split award is permitted and practical.
+Use **responsive L1** for the CPC recommendation.
 
 Check:
-- whether omitted items change ranking;
-- whether negotiated rates change ranking;
-- whether the comparative statement uses rates different from source quotations;
-- whether selected vendor was already L1 before negotiation;
-- whether revised scope requires complete recalculation.
+- package-wise L1 where the procurement is one complete package;
+- item-wise L1 only when split award is permitted and operationally appropriate;
+- whether missing items distort ranking;
+- whether revised / negotiated rates change ranking;
+- whether the comparative statement substitutes rates not found in source quotations;
+- whether removal or addition of scope requires fresh equal comparison;
+- whether the proposed vendor was actually L1 before or after negotiation.
 
-Report L1 status as:
-- **Verified**;
-- **Provisionally verified subject to clarification**;
-- **Not verified**.
+If scope changes materially, recalculate all responsive offers on the same revised basis. If this cannot be done fairly from existing quotations, recommend fresh quotations / re-bidding.
 
-### H. Price reasonableness
+### J. Price reasonableness
 
-L1 does **not** automatically mean reasonable price.
+**Correct L1 does not automatically mean reasonable price.**
 
 Assess available evidence against:
-- other quotations;
-- previous procurement rates;
-- approved budget;
-- documented market survey;
-- benchmark rates;
-- e-marketplace / catalogue rates where appropriate;
-- independent price-discovery documents.
+- other responsive quotations;
+- previous DSC purchase rates for comparable scope;
+- approved budget / estimate;
+- market survey;
+- documented price-discovery exercise;
+- catalogue / e-marketplace / published rates where appropriate;
+- recent comparable procurement;
+- technical estimate or engineer's estimate for works;
+- local market conditions where documented.
 
-If all bids appear high and there is insufficient benchmark support, recommend fresh price discovery, revised quotation or re-tendering rather than approving an inflated L1 merely because it is lowest.
+If all bids appear high, recommend fresh price discovery, negotiation with proper documentation, revised specifications or re-bidding rather than approving an inflated L1 merely because it is the lowest.
 
-If no benchmark exists, state that price reasonableness cannot be independently confirmed beyond the competitive quotations available.
+When comparing previous rates across states or districts, account for legitimate differences such as freight, installation, location, quantity, specifications and timing. Do not assume that a rate from one state must apply unchanged in another.
 
-### I. Commercial terms
+### K. Commercial terms
 
 Compare:
 - payment terms;
@@ -178,48 +240,51 @@ Compare:
 - transportation;
 - installation;
 - taxes;
-- retention / security, if applicable.
+- retention / security / performance guarantee where applicable;
+- service response or maintenance terms where relevant.
 
-Highlight any mismatch between original quotation and comparative statement.
+Commercial differences that materially affect evaluated cost or risk must be reflected in the CPC decision.
 
-### J. Vendor eligibility
+### L. Vendor eligibility
 
-Where relevant, distinguish mandatory from informational requirements and check available evidence for:
+Where applicable, check:
 - GST registration;
 - PAN;
-- Shop Act / establishment registration;
+- establishment / business registration;
 - MSME / Udyam;
-- authorised dealership;
+- authorised dealership / OEM support;
 - experience;
 - licences / certifications;
 - bank details;
-- other organisational requirements.
+- project- or donor-specific eligibility requirements.
 
-Do not reject a vendor for a document that is not actually mandatory under the applicable procurement requirement.
+Differentiate mandatory documents from informational documents. Do not reject a vendor for a document unless its requirement is established by the applicable process or procurement.
 
-### K. Procurement red flags
+### M. Procurement red flags
 
-Flag where present:
+Flag, where present:
 - requisition vs RFQ quantity mismatch;
-- pack vs litre / kg / unit confusion;
+- unit or pack-size confusion;
 - unsupported negotiated rates;
-- comparative statement not matching source quotation;
+- comparative statement not matching source quotations;
 - incomplete quotation treated as L1;
-- unusual quotation similarities requiring verification;
-- restrictive specification without justification;
+- same-format / same-language quotation concerns;
+- restrictive or vendor-specific specification without justification;
 - unexplained price gaps;
-- missing dates / signatures where material;
-- post-quotation scope or rate changes;
+- missing dates / signatures where required;
+- quotations or records created after decision points without explanation;
 - high prices across all vendors;
-- unusually large advance payment;
-- missing warranty / service terms;
+- unusually high advance payment;
+- absent warranty / service terms for relevant goods;
 - scope changed after quotation;
 - procurement split without justification;
-- only one genuinely responsive bid without adequate price benchmark.
+- bidder evaluated on a basis different from competitors;
+- applicable donor/project procurement requirement not evidenced;
+- state/unit/project identification inconsistent across documents.
 
-## CPC verdict scale
+## Verdict scale
 
-### GREEN — L1 may be approved
+### GREEN — Procurement / responsive L1 may be approved
 
 Use only where:
 - requirement and scope are clear;
@@ -227,94 +292,124 @@ Use only where:
 - responsive L1 is verified;
 - arithmetic is correct;
 - price appears reasonable on available evidence;
-- no material approval or documentation gap remains.
+- required approval trail is materially complete;
+- no unresolved issue could reasonably change vendor selection, evaluated price or procurement validity.
 
-### AMBER — L1 acceptable subject to clarification / correction
+Minor non-material administrative housekeeping may remain, but it must not affect selection or approval validity.
+
+### AMBER — Acceptable subject to clarification / correction before PO or Work Order
 
 Use where:
-- responsive L1 is likely or provisionally correct;
-- the procurement remains supportable;
-- but one or more correctable issues must be resolved before PO / Work Order, such as quantity/unit clarification, payment term, written negotiation support, approval, warranty, specification detail or documentation correction.
+- responsive L1 is likely correct and competition is broadly adequate;
+- but one or more correctable points remain, such as quantity wording, unit, payment term, written negotiation support, warranty, approval evidence, minor commercial clarification or documentation correction;
+- and the unresolved point is not presently expected to change L1 or invalidate the comparison.
 
-List every pre-approval condition explicitly.
+State the exact conditions that must be closed before order placement.
 
 ### RED — Do not presently approve
 
-Use where:
+Use where one or more material issues exist, including:
 - L1 is incorrect or cannot be reliably established;
-- comparison is materially unsupported;
-- technical non-compliance is material;
-- competition is inadequate and price reasonableness is not established;
-- source quotations materially differ from the comparative statement;
-- all rates appear unreasonably high without justification;
-- critical approval/source documents are missing;
-- or fresh price discovery / revised quotations / re-bidding are required.
+- bids are not comparable on the same scope;
+- the proposed L1 is materially non-responsive;
+- source quotation and comparative statement materially differ;
+- competition is inadequate without documented justification;
+- all prices appear unreasonable and price reasonableness is not established;
+- negotiated rate is unsupported and affects ranking;
+- scope changed materially after quotations;
+- critical approval / requisition / quotation evidence is missing;
+- applicable procurement requirements appear materially unmet;
+- fresh price discovery / quotations / re-tendering are required.
 
-## Default output format
+## Standard output format
 
-### 1. Executive summary
-State:
-- procurement item / scope;
-- proposed vendor;
-- proposed amount;
-- verified responsive L1, if established;
-- CPC verdict.
+For every full review provide:
 
-### 2. Document and gap check
+### 1. Executive Summary
+- State / project / unit
+- Funding partner, where available
+- Procurement item / service / work
+- Proposed vendor
+- Proposed amount
+- CPC verdict: GREEN / AMBER / RED
+
+### 2. Document Completeness
+Use a compact table:
+
+`Document / evidence | Status | Materiality | Comment`
+
+### 3. L1 Verification
 Use a concise table:
 
-`Document / evidence | Available? | Material issue / note`
+`Vendor | Evaluated total | Responsiveness | Numerical rank | Responsive rank | Key issue`
 
-Only list missing documents that matter to the conclusion.
+Show calculation corrections where needed.
 
-### 3. L1 verification
-Use a table such as:
+### 4. Price Reasonableness
+State separately from L1:
+- evidence available;
+- benchmark / prior-rate findings;
+- whether reasonableness is established, partially established, or not established.
 
-`Vendor | Quoted / evaluated total | Scope complete? | Technical status | Commercial status | Position`
+### 5. Key CPC Observations
+Only material points affecting approval, compliance, comparability, price, responsiveness or documentation.
 
-Where useful, include separate original and negotiated totals.
+### 6. CPC Verdict
+State **GREEN / AMBER / RED** and explain why in 1–3 concise paragraphs.
 
-### 4. Material CPC observations
-List only points that affect approval, L1, price reasonableness, compliance or risk.
+### 7. Final CPC Recommendation
+Clearly state one of:
+- responsive L1 may be approved;
+- responsive L1 may be approved subject to listed corrections;
+- procurement / proposed L1 should not presently be approved;
+- revised comparison / clarification / fresh price discovery / fresh quotations / re-tendering recommended;
+- technical expert validation required before CPC conclusion.
 
-### 5. CPC verdict
-State exactly one:
-- **GREEN — L1 may be approved**
-- **AMBER — L1 may be approved subject to listed corrections / clarifications**
-- **RED — L1 / procurement should not presently be approved**
+### 8. CPC Observation for Record
+Draft a short paragraph suitable for the Purchase Note / CPC minutes.
 
-### 6. Final CPC recommendation
-Give an actionable recommendation. Examples:
-- approve responsive L1;
-- approve after specified documentary corrections;
-- obtain written revised quotation / negotiation confirmation;
-- obtain technical expert validation;
-- undertake fresh price discovery;
-- invite revised comparable quotations;
-- re-tender / re-bid;
-- revise comparative statement and resubmit.
+### 9. Reply Email
+Only when requested, draft a crisp, professional reply to the project / field / procurement team. Use a constructive tone; do not dilute material CPC conditions.
 
-### 7. CPC observation for record
-Draft a short paragraph suitable for Purchase Note / CPC minutes. Keep it factual, balanced and decision-oriented.
+## Re-review after clarification
 
-### 8. Email draft — only if requested
-Draft a crisp, professional and constructive reply to the field team / procurement coordinator.
+When the project team submits clarifications or additional documents:
 
-When drafting the observation or email, the repository's `kaushal-voice` style may be used for tone, but it must not change the procurement findings.
+1. Do not restart from a blank conclusion.
+2. List each previous material observation.
+3. Mark it as:
+   - **Closed**;
+   - **Partially closed**;
+   - **Open**;
+   - **New issue identified**.
+4. Recalculate L1 if the clarification changes scope, rate, tax, freight or other evaluated terms.
+5. Reassess price reasonableness if new benchmark evidence is supplied.
+6. State whether the previous GREEN / AMBER / RED verdict changes and why.
+7. Issue a revised CPC observation and recommendation.
 
-## Review discipline
+## Cross-state use
 
-Never:
-- assume a missing quotation or approval exists;
-- treat numerical L1 as responsive L1 without checking scope;
-- treat L1 as proof of price reasonableness;
-- ignore freight, taxes, installation or other landed-cost components;
-- accept unsupported verbal negotiation as a revised rate;
-- convert a suspicion into a factual allegation;
-- recommend approval when a critical evidence gap prevents verification.
+The CPC logic is common across DSC, but local facts may differ. For cross-state or multi-state procurement:
+- identify whether the procurement is centralised or state-specific;
+- confirm whether delivery locations, freight, taxes, installation and service obligations differ by state;
+- do not rank vendors on a single headline rate if landed cost differs by location;
+- check whether a common specification applies across all states;
+- identify whether award is intended centrally, state-wise, lot-wise or item-wise;
+- evaluate each permitted award structure on the same basis;
+- do not import a rule from one state's historical practice into another state unless the applicable DSC policy supports it.
+
+## Review writing style
+
+The CPC review should be:
+- independent;
+- concise but evidence-rich;
+- firm on material gaps;
+- non-accusatory unless evidence supports misconduct;
+- clear about what is verified and what is not;
+- practical about corrective action.
+
+Do not hide a RED issue behind soft language. Do not turn a minor clerical issue into RED when it cannot affect the procurement decision.
 
 ## Quick invocation
 
-> Use the CPC review skill. Read all procurement documents first. Give me document gaps, independent L1 verification, material CPC observations, GREEN/AMBER/RED verdict, final recommendation, and a short CPC observation for the Purchase Note. Do not assume missing facts.
-
-For detailed checklist support, also use `references/review-checklist.md`.
+> Use the CPC review skill. Read all procurement documents completely first. Identify the state/project context, independently verify scope, specification, arithmetic, source quotations, comparative statement, responsiveness, L1 and price reasonableness. Flag missing documents and red flags. Give document completeness, L1 table, key CPC observations, GREEN/AMBER/RED verdict, final recommendation and a short CPC observation for the Purchase Note. Do not assume missing facts.
