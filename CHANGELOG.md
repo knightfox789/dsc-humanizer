@@ -4,10 +4,22 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.4.0] - 2026-09-11
+
+### Changed
+- Generalised the CPC Review skill from Maharashtra-specific use to **all DSC project states, units, programmes and funding partners**.
+- Added explicit state / project / unit / donor context identification at the start of every procurement review.
+- Added rule that state-, donor- and project-specific procurement requirements must be evidenced rather than assumed.
+- Added multi-state procurement logic for freight, installation, service obligations, delivery locations, landed cost and award structure.
+- Added cross-state price-comparison safeguards so historical rates from one state are not treated as automatic caps in another.
+- Updated CPC README, quick-start prompts, review checklist and evaluation cases for DSC-wide use.
+- Added regression tests for Gujarat, Madhya Pradesh, Rajasthan, cross-state benchmarking and multi-state procurement.
+- Repository version bumped to 0.4.0.
+
 ## [0.3.0] - 2026-09-11
 
 ### Added
-- New reusable `skills/cpc-review/` skill for DSC Maharashtra Central Procurement Committee reviews.
+- New reusable `skills/cpc-review/` skill for DSC Central Procurement Committee reviews.
 - Independent document/source mapping before L1 determination.
 - Requirement, quantity, unit, pack-size and scope reconciliation.
 - Vendor-wise technical and commercial responsiveness classification.
