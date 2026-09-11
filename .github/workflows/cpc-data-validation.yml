@@ -1,0 +1,24 @@
+name: CPC data validation
+
+on:
+  pull_request:
+    paths:
+      - 'skills/cpc-review/data/**'
+      - 'skills/cpc-review/scripts/**'
+      - 'skills/cpc-review/tests/**'
+  push:
+    paths:
+      - 'skills/cpc-review/data/**'
+      - 'skills/cpc-review/scripts/**'
+      - 'skills/cpc-review/tests/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run procurement-intelligence unit tests
+        run: python -m unittest skills/cpc-review/tests/test_procurement_intelligence.py

@@ -1,0 +1,59 @@
+{
+  "review_date": "2026-09-11",
+  "procurement_date": "2026-09-11",
+  "state": "STATE",
+  "project_unit": "PROJECT / UNIT",
+  "district": "",
+  "project_name": "",
+  "funding_partner": "",
+  "procurement_category": "Material",
+  "procurement_reference": "CPC-REF-0001",
+  "approved_budget_value": "",
+  "currency": "INR",
+  "proposed_vendor": "",
+  "proposed_amount": "",
+  "cpc_verdict": "AMBER",
+  "final_status": "pending",
+  "price_reasonableness_status": "partially established",
+  "source_reference": "Purchase Note / CPC review pack reference",
+  "items": [
+    {
+      "original_item_description": "Item description exactly as in procurement file",
+      "normalized_item_name": "Normalized recurring item name",
+      "item_category": "Category",
+      "specification": "Key technical specification",
+      "specification_key": "SPEC-V1",
+      "quantity": 0,
+      "canonical_unit": "unit",
+      "responsive_l1_landed_unit_rate": 0,
+      "quotes": [
+        {
+          "vendor_name": "Vendor A",
+          "quote_date": "2026-09-11",
+          "base_unit_rate": 0,
+          "gst_percent": 0,
+          "freight_per_unit": 0,
+          "installation_per_unit": 0,
+          "other_per_unit": 0,
+          "discount_per_unit": 0,
+          "responsiveness": "Responsive",
+          "numerical_rank": 1,
+          "responsive_rank": 1,
+          "source_document": "Quotation A"
+        }
+      ],
+      "award": {
+        "vendor_name": "Vendor A",
+        "awarded_quantity": 0,
+        "awarded_base_unit_rate": 0,
+        "gst_percent": 0,
+        "freight_per_unit": 0,
+        "installation_per_unit": 0,
+        "other_per_unit": 0,
+        "awarded_landed_unit_rate": 0,
+        "approved": false,
+        "benchmark_eligible": false
+      }
+    }
+  ]
+}

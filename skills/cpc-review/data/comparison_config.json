@@ -1,0 +1,17 @@
+{
+  "history_months": 24,
+  "minimum_comparables_for_median": 2,
+  "variance_flags_percent": {
+    "review": 10,
+    "high": 20,
+    "critical": 30
+  },
+  "same_state_first": true,
+  "require_same_canonical_unit": true,
+  "require_same_specification_key": true,
+  "allow_unspecified_specification": true,
+  "use_only_benchmark_eligible_awards": true,
+  "financial_year_start_month": 4,
+  "currency": "INR",
+  "note": "Variance flags trigger review only. They are not automatic approval/rejection thresholds."
+}
