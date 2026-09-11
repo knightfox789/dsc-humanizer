@@ -1,0 +1,32 @@
+{
+  "procurement_id": "PROC-HIST-MH-NAR-2026-09-GRASS-SEEDING",
+  "review_date": "2026-09-10",
+  "procurement_date": "2026-09-10",
+  "state": "Maharashtra",
+  "project_unit": "Narayangaon",
+  "district": "Pune",
+  "project_name": "",
+  "funding_partner": "",
+  "procurement_category": "Biodiversity / field activity",
+  "procurement_reference": "Comparative Note for Grass seeding (Biodiversity) - 10-09-2026",
+  "approved_budget_value": "",
+  "currency": "INR",
+  "proposed_vendor": "",
+  "proposed_amount": "",
+  "cpc_verdict": "UNVERIFIED",
+  "final_status": "pending",
+  "price_reasonableness_status": "not assessed",
+  "source_reference": "Gmail - Comparative Note for Grass seeding (Biodiversity).pdf. Email confirms a field-unit purchase plan, comparative/acceptance, vendor checklist and quotation pack were submitted to CPC, but the attachment contents/rates/vendors are not recoverable from the saved email PDF. No CPC conclusion recovered.",
+  "items": [
+    {
+      "original_item_description": "Grass seeding (Biodiversity)",
+      "normalized_item_name": "grass seeding biodiversity",
+      "item_category": "Biodiversity / field activity",
+      "specification": "Scope, unit, quantity, vendor names and rates not recovered from saved evidence.",
+      "specification_key": "UNSPECIFIED",
+      "quantity": 0,
+      "canonical_unit": "UNSPECIFIED",
+      "quotes": []
+    }
+  ]
+}
