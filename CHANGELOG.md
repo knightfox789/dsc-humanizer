@@ -4,6 +4,26 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.3.0] - 2026-09-11
+
+### Added
+- New reusable `skills/cpc-review/` skill for DSC Maharashtra Central Procurement Committee reviews.
+- Independent document/source mapping before L1 determination.
+- Requirement, quantity, unit, pack-size and scope reconciliation.
+- Vendor-wise technical and commercial responsiveness classification.
+- Independent arithmetic and landed-cost verification.
+- Source quotation vs comparative-statement reconciliation.
+- Explicit distinction between numerical L1 and responsive L1.
+- Explicit distinction between L1 correctness and price reasonableness.
+- GREEN / AMBER / RED verdict gates with approval conditions.
+- CPC review checklist, quick-start prompts and regression evaluation cases.
+- Re-review workflow for newly submitted clarification/documents.
+- CPC observation and optional response-email workflow compatible with `kaushal-voice` tone.
+
+### Changed
+- Repository README now acts as an index for multiple professional AI skills rather than only the humanizer skill.
+- Repository version bumped to 0.3.0.
+
 ## [0.2.0] - 2026-09-10
 
 ### Added

@@ -1,61 +1,76 @@
-# DSC Humanizer
+# DSC Professional AI Skills
 
-A reusable GitHub-based writing skill for professional, technical, donor-facing, and project communication.
+A reusable GitHub-based skill repository for DSC professional writing and procurement review workflows.
+
+The repository now contains two independent skills:
+
+1. **DSC Humanizer** — fact-safe professional rewriting, including `kaushal-voice`.
+2. **CPC Review** — independent Maharashtra CPC procurement review, L1 verification and GREEN/AMBER/RED recommendation.
+
+## Skill 1 — DSC Humanizer
+
+The root [`SKILL.md`](SKILL.md) rewrites AI-assisted or rough drafts into clearer, more natural and credible prose while protecting factual and technical integrity.
 
 **Core rule:** style may change; facts must not.
 
-## What it does
-
-`dsc-humanizer` rewrites AI-assisted or rough drafts into clearer, more natural and credible prose while protecting factual and technical integrity.
-
-It is designed especially for:
+Best for:
 - donor and CSR reports;
 - water, agriculture, NRM and development-sector documentation;
-- technical notes and methodology write-ups;
+- technical notes;
 - case studies and project stories;
 - Governing Board and management notes;
-- donor observations and compliance responses;
-- web articles;
-- LinkedIn and professional posts;
-- field notes and concise professional communication.
+- compliance responses;
+- web articles and professional posts.
 
-The skill is intended to improve authentic writing quality. It is not designed to bypass AI-detection systems.
+### Kaushal Voice
 
-## v0.2.0 — Kaushal Voice
-
-Version 0.2.0 adds a dedicated `kaushal-voice` profile based on recurring strengths identified across prior professional writing samples. Project-specific text is not copied into the public profile; the skill captures writing habits instead.
-
-The profile favours:
+The `kaushal-voice` profile favours:
 - evidence before adjectives;
 - technical reasoning connected to field conditions;
 - practical `context → action → evidence → meaning → next step` flow;
-- accurate roles for community institutions and government/convergence partners;
-- calm acknowledgement of documentation or implementation gaps;
-- explicit distinction between what is measured, estimated, expected, reported, or still to be verified;
+- accurate institutional roles;
+- calm acknowledgement of gaps;
+- preservation of qualifiers such as `estimated`, `expected`, `reported`, `approximately`, `preliminary`, and `may`;
 - restrained development-sector language;
 - Indian English conventions unless another house style is requested.
 
 See [`references/kaushal-voice.md`](references/kaushal-voice.md).
 
+## Skill 2 — CPC Review
+
+The [`skills/cpc-review/SKILL.md`](skills/cpc-review/SKILL.md) skill reviews DSC Maharashtra Central Procurement Committee proposals independently from source evidence.
+
+It traces:
+
+`approved requirement → budget/procurement plan → RFQ/specification → quotations → responsiveness → arithmetic → comparative statement → negotiation → price reasonableness → responsive L1 → CPC verdict`
+
+The CPC skill explicitly separates:
+- numerical L1 from responsive L1;
+- L1 correctness from price reasonableness;
+- critical evidence gaps from correctable documentation gaps;
+- legitimate procurement concerns from unsupported allegations.
+
+### CPC verdicts
+
+- **GREEN** — responsive L1 verified, price reasonably supported, no material gap remains.
+- **AMBER** — procurement is supportable subject to explicit correction / clarification before PO or Work Order.
+- **RED** — L1/procurement should not presently be approved because critical verification, technical, competition or price-discovery issues remain.
+
+See [`skills/cpc-review/README.md`](skills/cpc-review/README.md) and [`skills/cpc-review/references/review-checklist.md`](skills/cpc-review/references/review-checklist.md).
+
 ## Repository structure
 
 ```text
 dsc-humanizer/
-├── SKILL.md
+├── SKILL.md                         # DSC Humanizer
 ├── README.md
 ├── VERSION
 ├── CHANGELOG.md
 ├── CONTRIBUTING.md
 ├── LICENSE
-├── .gitignore
-├── .github/
-│   └── ISSUE_TEMPLATE/
-│       └── improvement.md
 ├── prompts/
 │   ├── quick-start.md
 │   └── kaushal-voice.md
-├── examples/
-│   └── examples.md
 ├── references/
 │   ├── ai-patterns-to-reduce.md
 │   ├── case-study-style.md
@@ -63,134 +78,62 @@ dsc-humanizer/
 │   ├── fact-preservation.md
 │   ├── kaushal-voice.md
 │   └── technical-writing-style.md
-└── tests/
-    └── evaluation-cases.md
+├── tests/
+│   └── evaluation-cases.md
+└── skills/
+    └── cpc-review/
+        ├── SKILL.md
+        ├── README.md
+        ├── prompts/
+        │   └── quick-start.md
+        ├── references/
+        │   └── review-checklist.md
+        └── tests/
+            └── evaluation-cases.md
 ```
 
-## How to use
-
-For an agent or workflow that supports `SKILL.md`-style skills, use this repository as the skill source and load `SKILL.md` as the primary instruction file. The files under `references/` provide additional domain and style guidance.
-
-### General donor-report mode
+## Quick use — Humanizer
 
 ```text
 Use dsc-humanizer.
-
-mode: donor-report
-strength: medium
-audience: CSR donor
-length: same
-preserve_terms: water budget, Sujal Samiti, groundwater, water saving
-
-Rewrite:
-[paste draft]
-```
-
-### Kaushal voice
-
-```text
-Use dsc-humanizer.
-
 mode: kaushal-voice
 strength: medium
 audience: donor / CSR partner
-priority: evidence, technical clarity, outcome, implementation quality, next step
-preserve_terms: [add project-specific terms]
 
 Rewrite:
 [paste draft]
 ```
 
-For donor observations or compliance responses:
+## Quick use — CPC Review
 
 ```text
-Use dsc-humanizer.
-
-mode: kaushal-voice
-strength: medium
-audience: donor / reviewer
-response_type: observation-response
-priority: acknowledge valid gap, explain evidence, distinguish documentation from technical issue where justified, state corrective action
-
-Rewrite:
-[paste observation and draft response]
+Use the CPC review skill.
+Read all uploaded procurement documents completely before giving any conclusion.
+Give me document gaps, independent L1 verification, material CPC observations, GREEN/AMBER/RED verdict, final recommendation, and a short CPC observation for the Purchase Note.
+Do not assume missing facts.
 ```
 
-More prompt recipes are available in [`prompts/quick-start.md`](prompts/quick-start.md) and [`prompts/kaushal-voice.md`](prompts/kaushal-voice.md).
+For re-review after new clarification/documents, use the recipes in [`skills/cpc-review/prompts/quick-start.md`](skills/cpc-review/prompts/quick-start.md).
 
-## Writing modes
+## Quality principles
 
-| Mode | Best for |
-| --- | --- |
-| `professional` | General polished professional writing |
-| `donor-report` | Evidence-led CSR and donor reporting |
-| `technical` | Methods, indicators, calculations and technical notes |
-| `case-study` | Human-centred but fact-safe project stories |
-| `web-article` | Accessible long-form online content |
-| `linkedin` | Concise professional social posts |
-| `concise` | Shortening while preserving meaning |
-| `field-note` | Practical, grounded field documentation |
-| `kaushal-voice` | Evidence-first, technically grounded practitioner writing |
-
-## Editing strength
-
-- **Light** — fixes grammar, repetition, rhythm and obvious AI-style wording while preserving structure.
-- **Medium** — rewrites sentences and paragraphs for stronger flow while preserving facts and organisation.
-- **Deep** — can reorganise paragraphs and structure while keeping supported facts and technical meaning intact.
-
-Default strength: `medium`.
-
-## Fact-lock principle
-
-Before rewriting, the skill protects:
-- names and organisations;
-- places and project titles;
-- dates and periods;
-- numbers, percentages and financial values;
-- units, areas, yields and targets;
-- formulas and indicators;
-- technical terminology;
-- quotations and attribution;
-- supported causal claims;
-- qualifiers such as `estimated`, `expected`, `reported`, `approximately`, `preliminary`, and `may`.
-
-The skill must not turn an activity into an outcome, an output into an impact, or uncertainty into certainty.
-
-See [`references/fact-preservation.md`](references/fact-preservation.md) for the full safeguards.
-
-## Domain-aware writing
-
-The skill includes specific protection for terminology used in water security, agriculture, watershed, NRM, PIM and natural-farming documentation. Terms such as `water budget`, `groundwater`, `static water level`, `crop-water demand`, `adoption area`, `water saving`, `Sujal Samiti`, `Water User Group`, `Measurement Book`, `PRA`, `FGD`, `KPI` and `baseline` should not be replaced with vague language when they carry technical meaning.
-
-## Quality checks
-
-Changes to the skill should be checked against [`tests/evaluation-cases.md`](tests/evaluation-cases.md), including:
-- exact preservation of figures and units;
-- preservation of technical terminology;
-- reduction of inflated AI-style language;
-- distinction among activity, output, outcome and impact;
-- preservation of uncertainty;
-- evidence-first Kaushal-voice writing;
-- accountable handling of review observations;
-- field-condition reasoning without invented technical evidence;
-- accurate institutional roles.
+Across both skills:
+- facts and source evidence take priority over style or assumptions;
+- unsupported conclusions must be labelled as unverified;
+- figures, units, dates and qualifiers must be preserved;
+- technical terminology should not be diluted into vague language;
+- recommendations should be practical and decision-oriented.
 
 ## Versioning
 
-Current version: **0.2.0**
+Current repository version: **0.3.0**
 
 This repository follows Semantic Versioning:
 - PATCH — wording fixes and small rule improvements;
-- MINOR — new modes, domain guides or substantial workflow improvements;
-- MAJOR — incompatible redesign of the skill interface or behaviour.
+- MINOR — new skills, modes, domain guides or substantial workflow improvements;
+- MAJOR — incompatible redesign of skill interfaces or behaviour.
 
-See [`CHANGELOG.md`](CHANGELOG.md) for release notes.
-
-## Contributing
-
-Improvements are welcome. Please keep the core principle intact: **style may change; facts must not.** Add or update an evaluation case when making meaningful changes to the skill.
-
-See [`CONTRIBUTING.md`](CONTRIBUTING.md).
+See [`CHANGELOG.md`](CHANGELOG.md).
 
 ## License
 
