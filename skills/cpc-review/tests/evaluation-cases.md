@@ -2,133 +2,179 @@
 
 Use these cases whenever the CPC review skill changes.
 
-## 1. Numerical L1 is not responsive L1
+## 1. Numerical L1 vs responsive L1
 
 Input:
-- Vendor A total: ₹90,000, but installation required by RFQ is excluded.
-- Vendor B total: ₹96,000 including installation and full scope.
+- Vendor A total: ₹95,000, but one mandatory scope item is omitted.
+- Vendor B total: ₹99,500 and quotes the complete required scope.
 
 Pass criteria:
-- Vendor A may be identified as numerical L1.
-- Vendor A is not treated as verified responsive L1 without resolving the missing scope.
-- Vendor B may be responsive L1 if all other requirements are met.
+- Vendor A may be numerical L1.
+- Vendor A must not automatically be treated as responsive L1.
+- Vendor B should be considered for responsive L1 if otherwise compliant.
+- The output should explain the distinction clearly.
 
-## 2. Comparative statement mismatch
+## 2. L1 correct but price reasonableness weak
 
 Input:
-- Original quotation: unit rate ₹1,250.
-- Comparative statement: ₹1,150.
-- No revised quotation or negotiation record supplied.
+- Three technically responsive bids: ₹2.95 lakh, ₹3.02 lakh and ₹3.10 lakh.
+- Approved estimate: ₹2.20 lakh.
+- No recent market benchmark or price-discovery note is available.
 
 Pass criteria:
-- The ₹1,150 rate is not accepted as supported.
-- Written clarification / revised quotation is required.
-- Verdict cannot be GREEN while the unsupported rate is material to L1.
+- The skill may identify the lowest responsive bidder.
+- It must separately state that price reasonableness is not established or needs further evidence.
+- It must not issue GREEN solely because an L1 exists.
 
-## 3. Correct L1 but weak price reasonableness
+## 3. Comparative statement mismatch
 
 Input:
-- Three technically responsive vendors quote ₹4.8 lakh, ₹5.0 lakh and ₹5.1 lakh.
-- Approved budget is ₹3.2 lakh.
-- No benchmark or previous rate is available.
+- Original vendor quotation: unit rate ₹1,250 plus GST.
+- Comparative statement: unit rate ₹1,150 plus GST.
+- No revised quotation or written negotiation record is supplied.
 
 Pass criteria:
-- ₹4.8 lakh can still be numerical/responsive L1.
-- The skill does not equate L1 with reasonable price.
-- It flags the large budget variance and recommends additional price discovery / justification before approval.
+- The mismatch is flagged as material.
+- The comparative statement rate is not accepted without written source support.
+- If the mismatch affects ranking, RED should be considered.
 
-## 4. Minor correctable documentation gap
+## 4. Scope change after quotation
 
 Input:
-- Full scope, quotations, arithmetic and L1 are verified.
-- Warranty is clearly stated in the selected vendor's quote but omitted from the comparative statement.
+- Original RFQ included supply + installation.
+- After quotations, installation is removed only from the proposed vendor's evaluated scope.
 
 Pass criteria:
-- The omission is identified.
-- If no other material issue exists, AMBER may be appropriate subject to correction before PO.
-- The skill should not automatically make the case RED.
+- The skill identifies an unequal evaluation basis.
+- Existing ranking is not accepted without a fair recalculation for all vendors.
+- Fresh comparison or fresh quotation may be recommended.
 
-## 5. Critical missing quotation
+## 5. Correctable documentation gap
 
 Input:
-- Comparative statement shows three vendors.
-- Only two source quotations are provided.
-- The missing quotation is shown as selected L1.
+- Three comparable responsive quotations are available.
+- Arithmetic and L1 are verified.
+- Price reasonableness is supported.
+- Warranty is mentioned in the RFQ but not repeated in the comparative statement.
+- Original quotations show the required warranty.
 
 Pass criteria:
-- L1 is Not verified.
-- Missing source quotation is a critical gap.
-- RED is appropriate until the source evidence is supplied and verified.
+- The issue is not escalated to RED automatically.
+- AMBER or GREEN with minor housekeeping may be appropriate depending on whether the final order will carry the warranty clearly.
+- The recommendation should state the required correction precisely.
 
-## 6. Scope change after quotations
+## 6. Missing critical quotation
 
 Input:
-- RFQ requested Items A, B and C.
-- CPC proposal later removes Item C.
-- Comparative statement still ranks vendors using A+B+C totals.
+- Comparative statement lists three vendors.
+- Only two original quotations are available.
+- Proposed L1 is the missing quotation.
 
 Pass criteria:
-- L1 must be recalculated for revised scope A+B.
-- Original ranking is not accepted without recalculation.
+- L1 cannot be independently verified.
+- The missing source quotation is classified as Critical.
+- GREEN is not allowed.
 
-## 7. Item-wise vs package-wise L1
+## 7. Unsupported negotiated rate
 
 Input:
-- Vendor A is lowest on Item 1.
-- Vendor B is lowest on Item 2.
-- RFQ requires one turnkey supplier and does not permit split award.
+- Original quotation: ₹4.80 lakh.
+- Comparative statement uses ₹4.35 lakh after 'negotiation'.
+- No email, revised quote, minutes or written negotiation record is available.
 
 Pass criteria:
-- Skill does not recommend item-wise cherry-picking.
-- Package-wise evaluation is used.
+- Negotiated rate is treated as unverified.
+- Ranking is recalculated using verified evidence unless written support is obtained.
+- Verdict reflects whether the unsupported rate affects selection.
 
-## 8. Suspicious similarity without proof
+## 8. State neutrality
 
 Input:
-- Two quotations use very similar wording and layout.
-- No evidence proves common authorship or collusion.
+- Procurement is from a DSC project in Gujarat.
+- No Maharashtra-specific rule is referenced in the file.
 
 Pass criteria:
-- Skill flags unusual similarity as a verification concern.
-- It does not state collusion as fact.
+- The review identifies Gujarat as the procurement context.
+- It does not invoke Maharashtra-specific practices, authorities, thresholds or documents.
+- Core CPC review logic remains unchanged.
 
-## 9. Negotiated rate supported in writing
+## 9. Donor-specific condition
 
 Input:
-- Original selected vendor rate: ₹2,000/unit.
-- Signed revised quotation: ₹1,850/unit.
-- Comparative correctly uses ₹1,850.
+- Procurement is in Madhya Pradesh under a CSR-funded project.
+- The procurement file includes a donor condition requiring three quotations for this value band.
+- Only two quotations are available and no exception approval is supplied.
 
 Pass criteria:
-- Revised rate may be used.
-- L1 is recalculated using the written revised rate.
+- The donor condition is treated as applicable evidence.
+- The gap is explicitly flagged.
+- The skill does not invent a different DSC or state threshold.
+- Verdict reflects the materiality of the unmet condition.
 
-## 10. Unsupported verbal negotiation
+## 10. State-specific rule not supplied
 
 Input:
-- Comparative uses ₹1,850/unit.
-- Original quotation is ₹2,000/unit.
-- Team says vendor agreed verbally, but no written evidence exists.
+- Procurement is in Rajasthan.
+- The reviewer suspects there may be a project-specific or state-specific approval threshold, but no such policy is included in the documents.
 
 Pass criteria:
-- ₹1,850 is not treated as verified.
-- Written confirmation is required.
-- Verdict reflects whether this changes L1/approval.
+- The skill says the applicable threshold is `not verified`.
+- It does not invent a rule.
+- It requests the relevant policy or approval evidence only if material to the decision.
 
-## 11. Missing informational document
+## 11. Cross-state price comparison
 
 Input:
-- PAN copy is absent.
-- The procurement rule does not make PAN submission a bid-responsiveness condition at CPC review stage.
-- All core technical/commercial documents are complete.
+- Previous DSC procurement in Maharashtra: ₹1,000/unit delivered locally.
+- Current procurement in Gujarat: ₹1,100/unit including longer freight and installation.
 
 Pass criteria:
-- Missing PAN is not automatically used to reject the bid.
-- Skill distinguishes mandatory from informational documentation.
+- The skill does not call the Gujarat rate unreasonable solely because it exceeds the Maharashtra rate.
+- It examines freight, installation, quantity, specification and timing differences.
+- Previous rate is used as one benchmark, not as an automatic cap.
 
-## 12. Verdict discipline
+## 12. Multi-state procurement
+
+Input:
+- One procurement covers Gujarat, Madhya Pradesh and Rajasthan.
+- Vendor A has the lowest basic unit rate but high freight to Rajasthan.
+- Vendor B has a slightly higher basic rate but lower total landed cost for the full delivery schedule.
 
 Pass criteria:
-- GREEN only when no material gap remains.
-- AMBER only for supportable procurement with explicit pre-PO corrections/clarifications.
-- RED where critical verification fails, responsive L1 is unsupported, or fresh competition/price discovery is necessary.
+- The skill evaluates landed cost by permitted award structure rather than only headline unit rate.
+- It identifies whether award is centralised, state-wise or lot-wise.
+- Responsive L1 is determined on the same basis for all bidders.
+
+## 13. Re-review after clarification
+
+Previous observation:
+- Negotiated rate unsupported.
+
+New document:
+- Signed revised quotation confirms the negotiated rate and does not alter scope.
+
+Pass criteria:
+- Observation is marked Closed if evidence is adequate.
+- L1 is recalculated using the confirmed rate.
+- Verdict is reassessed rather than mechanically retained.
+
+## 14. Technical uncertainty
+
+Input:
+- Lowest bidder offers a different technical model.
+- Documents do not establish whether it is equivalent to the required specification.
+
+Pass criteria:
+- The skill does not guess equivalence.
+- Vendor is `Responsive subject to clarification` or unresolved as appropriate.
+- Technical expert validation is recommended before final L1 determination if material.
+
+## 15. Administrative error that does not affect selection
+
+Input:
+- Comparative statement has a minor spelling error in a vendor address.
+- Vendor identity, quotation, scope, rates and all commercial terms are otherwise clear.
+
+Pass criteria:
+- The skill does not inflate the issue into AMBER/RED unless the error creates genuine identity or compliance uncertainty.
+- Focus remains on material procurement risk.
