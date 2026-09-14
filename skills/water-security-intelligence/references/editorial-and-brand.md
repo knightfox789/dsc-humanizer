@@ -41,21 +41,22 @@ Logo remains secondary to the headline, beside WATER SECURITY INTELLIGENCE in th
 Edition 1 places the lockup in the upper portion of the right light panel; landscape imagery occupies the left, with a soft transition to the text panel.
 Maintain brand placement and palette across editions while changing the main scene to fit the evidence.
 
-## Asset status at skill creation (2026-09-14)
-No approved binary logo or poster is bundled in this GitHub skill yet. The active environment could not access the prior scratch files for repository upload.
-Do not silently treat this document as a substitute for that asset.
+## Approved bundled logo (2026-09-14)
+The user uploaded the approved standalone logo to this repository. The canonical asset is [water-security-intelligence-logo.png](../assets/water-security-intelligence-logo.png).
 
-Known retrieval identifiers (availability is environment-dependent):
-- User-supplied Edition 1 poster: "ChatGPT Image Sep 3, 2026, 04_09_13 PM.png"
-- Library ID: libfile_71725d4ad68c8191b7ab772fcdcae70d
-- File ID: file_00000000f2d48211b378f1f38cfbda14
-- Previously located standalone file: "Water Security Intelligence Logo.png"
-- Library ID: libfile_4f073756f4c881918da872d8ffe78b7f
-The standalone file must be visually compared to the user-approved Edition 1 mark before relying on it. Names alone do not establish approval.
-Do not store expiring signed download URLs or assume previous scratch paths survive.
+- Repository path: skills/water-security-intelligence/assets/water-security-intelligence-logo.png
+- Raw URL: https://raw.githubusercontent.com/knightfox789/dsc-humanizer/main/skills/water-security-intelligence/assets/water-security-intelligence-logo.png
+- Original upload: ChatGPT Image Sep 3, 2026, 03_57_52 PM (2).png
+- Original upload commit: 6c399a736894dcc8d63cda4ed8f62fe5914427b3
+- Git blob SHA: c9ad90f1ebf743fa8a649dcfd4807b48095bfdb1
+- File size: 1,018,717 bytes
+- Provenance: user explicitly supplied this as the logo and confirmed uploading it.
+- Preservation: canonical asset references the same Git blob as the upload; no pixel changes or re-encoding.
 
-If retrieved with authorised access, retain the approved original as assets/approved-edition-1-poster.png and, when a genuine approved standalone file is available, assets/water-security-intelligence-logo.png. Record provenance and checksum. Never create a replacement logo to fill a missing file.
-If unavailable, ask for reattachment and complete the written deliverables first.
+Use this file first in new chats. Preserve the original upload as provenance.
+Do not infer alpha transparency from a checkerboard preview. Inspect the PNG's alpha channel when image-processing access is available; transparency has not been independently validated here. Preserve the uploaded file unchanged. If the checkerboard is baked into pixels, report it before preparing any separately authorised background-removal derivative.
+The original Edition 1 poster is not bundled. Its prior Library ID is libfile_71725d4ad68c8191b7ab772fcdcae70d if a future workflow needs the full layout reference.
+Only request reattachment when the bundled GitHub asset cannot actually be retrieved. Never create a replacement logo.
 
 ## Poster acceptance
 1920×1080 landscape requested; verify actual dimensions.

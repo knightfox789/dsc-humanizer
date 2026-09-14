@@ -21,7 +21,7 @@ Argument: connect divergent rainfall, storage, groundwater and service signals t
 Themes: local drought/flood hydrology; storage and allocation commitments; groundwater/watershed response; climate/headwater contingency planning.
 Topics included in drafts: IMD outlook, Bihar flood dynamics, Karnataka drought/Cauvery allocation, Mumbai supply restrictions, Punjab groundwater, Telangana aquifer atlas access, Chhattisgarh watershed directions, ENSO, Himalayan assessment and Water4All.
 These are duplicate-screening cues, not preverified sources for future runs. A durable 12–18-item research ledger was not included with the original chat draft; independently establish evidence before claiming that count.
-Poster limitation: no verified 1920×1080 export was established in the chat. Approved original brand binaries are not bundled; see editorial-and-brand.md.
+Poster limitation: no verified 1920×1080 export was established in the chat. The approved standalone logo is now bundled at assets/water-security-intelligence-logo.png; see editorial-and-brand.md for provenance. The original Edition 1 poster is not bundled.
 
 ## Future edition record
 For each authorised saved edition record:

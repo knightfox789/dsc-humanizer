@@ -85,6 +85,7 @@ The short poster headline may differ from the full article headline but must exp
 Verify character counts rather than estimating them.
 
 ## 6. Generate the cover
+Approved bundled logo: [assets/water-security-intelligence-logo.png](assets/water-security-intelligence-logo.png). Load this exact original first; see references/editorial-and-brand.md for provenance. Do not request reattachment while this GitHub asset is accessible.
 Use the available built-in image-generation capability and applicable imagegen instructions.
 Target 1920×1080 landscape. Professional editorial design; restrained navy/blue–teal–earth palette, strong hierarchy, generous whitespace, plausible edition-specific water-resource imagery.
 Only permitted visible text:

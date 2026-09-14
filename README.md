@@ -91,6 +91,6 @@ For copy only, add "Write-up only." For a cover revision, add "Redesign the curr
 
 GitHub storage makes the instructions retrievable; it does not automatically install the skill in a new ChatGPT session. If GitHub access is unavailable, supply the skill file and references in the chat. An installed skill-capable client can invoke the skill by its name, water-security-intelligence.
 
-**Brand asset dependency:** the exact approved logo/poster binaries are not yet bundled. The skill records retrieval identifiers and requires the approved asset to be retrieved or attached before a branded poster is finalised. It forbids substituting a generated logo.
+**Approved brand asset:** the original [Water Security Intelligence logo](skills/water-security-intelligence/assets/water-security-intelligence-logo.png) is bundled and referenced by the skill. The file is an unchanged copy of the user-uploaded PNG. Future editions must load this asset and preserve its geometry and colours; substituting a generated logo is forbidden. Alpha transparency must be checked before compositing.
 
 References: [Editorial and brand rules](skills/water-security-intelligence/references/editorial-and-brand.md) · [Edition continuity and ledger](skills/water-security-intelligence/references/continuity.md).
