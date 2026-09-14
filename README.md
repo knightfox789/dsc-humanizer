@@ -76,3 +76,21 @@ Historical rates are benchmark signals rather than automatic price caps. Specifi
 Current repository version: **0.5.0**
 
 See [`CHANGELOG.md`](CHANGELOG.md).
+
+## Water Security Intelligence newsletter
+
+[Water Security Intelligence skill](skills/water-security-intelligence/SKILL.md) produces Kaushal Gadariya's India-first weekly LinkedIn publication package: verified research, a 900–1,200-word article, SEO metadata and a branded cover.
+
+### Recall in a new chat
+
+Paste this instruction:
+
+> Read and follow https://github.com/knightfox789/dsc-humanizer/blob/main/skills/water-security-intelligence/SKILL.md and its linked references. Use it to create the next complete Water Security Intelligence newsletter package. Establish the previous edition cutoff, verify 12–18 consequential developments, and apply Kaushal's voice and the fixed-logo rules. Complete routine work autonomously; flag only genuine blockers.
+
+For copy only, add "Write-up only." For a cover revision, add "Redesign the current edition cover."
+
+GitHub storage makes the instructions retrievable; it does not automatically install the skill in a new ChatGPT session. If GitHub access is unavailable, supply the skill file and references in the chat. An installed skill-capable client can invoke the skill by its name, water-security-intelligence.
+
+**Brand asset dependency:** the exact approved logo/poster binaries are not yet bundled. The skill records retrieval identifiers and requires the approved asset to be retrieved or attached before a branded poster is finalised. It forbids substituting a generated logo.
+
+References: [Editorial and brand rules](skills/water-security-intelligence/references/editorial-and-brand.md) · [Edition continuity and ledger](skills/water-security-intelligence/references/continuity.md).
