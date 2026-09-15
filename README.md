@@ -1,6 +1,6 @@
 # DSC Professional AI Skills
 
-Reusable GitHub-based skills for DSC professional writing, analytical communication and procurement review.
+Reusable GitHub-based skills for DSC professional writing, analytical communication, programme strategy, systems-transition review and procurement intelligence.
 
 ## Skills
 
@@ -10,7 +10,7 @@ The root [`SKILL.md`](SKILL.md) provides fact-safe professional rewriting, donor
 #### Kaushal Voice — evidence, execution and systems reasoning
 [`references/kaushal-voice.md`](references/kaushal-voice.md) is the evidence-first practitioner voice used for water security, agriculture, NRM, donor, technical, management and field communication.
 
-Version 0.7.0 combines the analytical safeguards introduced in 0.6.0 with stronger execution and systems-transition discipline. It now includes:
+Version 0.7.0 combined the analytical safeguards introduced in 0.6.0 with stronger execution and systems-transition discipline. It includes:
 - descriptive, comparative, associational, causal and projected/modelled evidence classes;
 - research-design and comparison-validity checks;
 - safeguards against causal overstatement;
@@ -90,15 +90,26 @@ After a procurement is finalized, the skill should update the structured master 
 
 Historical rates are benchmark signals rather than automatic price caps. Specifications, units, quantity, freight, installation, taxes, geography and timing must be considered.
 
-## Version
+### 3. DSC Systems Transition Review
+[`skills/systems-transition-review/SKILL.md`](skills/systems-transition-review/SKILL.md) reviews pilots, programmes, proposals and strategies for genuine scale readiness.
 
-Current repository version: **0.7.0**
+It is designed to prevent a successful pilot from being labelled `scalable` without a credible mechanism. The skill:
+- defines the intended scale and system boundary;
+- classifies the dominant pathway as replication, production-system/incentive transition, collective-action/trust transition, or hybrid;
+- tests whether pilot conditions can realistically survive expansion;
+- maps the current state and desired system state;
+- distinguishes necessary, enabling and jointly sufficient conditions;
+- separates external change from programme additionality;
+- identifies the rate-limiting or make-or-break condition;
+- checks institutional ownership, recurring finance, delivery ecosystem and resource realism;
+- gives a **GREEN / AMBER / RED / GREY** scale-readiness verdict.
 
-See [`CHANGELOG.md`](CHANGELOG.md).
+Quick prompts are in [`skills/systems-transition-review/prompts/quick-start.md`](skills/systems-transition-review/prompts/quick-start.md), with regression cases in [`skills/systems-transition-review/tests/evaluation-cases.md`](skills/systems-transition-review/tests/evaluation-cases.md).
 
-## Water Security Intelligence newsletter
+### 4. Water Security Intelligence newsletter
+[`skills/water-security-intelligence/SKILL.md`](skills/water-security-intelligence/SKILL.md) produces Kaushal Gadariya's India-first weekly LinkedIn publication package: verified research, a 900–1,200-word article, SEO metadata and a branded cover.
 
-[Water Security Intelligence skill](skills/water-security-intelligence/SKILL.md) produces Kaushal Gadariya's India-first weekly LinkedIn publication package: verified research, a 900–1,200-word article, SEO metadata and a branded cover.
+The newsletter now applies the Systems Transition Review lens only when a consequential story or central argument claims scale, systems change, institutionalisation, replication, collective governance or government uptake. Routine technical or service-delivery developments are not forced into a systems-change frame.
 
 ### Recall in a new chat
 
@@ -108,8 +119,14 @@ Paste this instruction:
 
 For copy only, add "Write-up only." For a cover revision, add "Redesign the current edition cover."
 
-GitHub storage makes the instructions retrievable; it does not automatically install the skill in a new ChatGPT session. If GitHub access is unavailable, supply the skill file and references in the chat. An installed skill-capable client can invoke the skill by its name, water-security-intelligence.
+GitHub storage makes the instructions retrievable; it does not automatically install a skill in every new ChatGPT session. If GitHub access is unavailable, supply the relevant skill file and references in the chat.
 
-**Approved brand asset:** the original [Water Security Intelligence logo](skills/water-security-intelligence/assets/water-security-intelligence-logo.png) is bundled and referenced by the skill. The file is an unchanged copy of the user-uploaded PNG. Future editions must load this asset and preserve its geometry and colours; substituting a generated logo is forbidden. Alpha transparency must be checked before compositing.
+**Approved brand asset:** the original [Water Security Intelligence logo](skills/water-security-intelligence/assets/water-security-intelligence-logo.png) is bundled and referenced by the newsletter skill. The file is an unchanged copy of the user-uploaded PNG. Future editions must load this asset and preserve its geometry and colours; substituting a generated logo is forbidden. Alpha transparency must be checked before compositing.
 
 References: [Editorial and brand rules](skills/water-security-intelligence/references/editorial-and-brand.md) · [Edition continuity and ledger](skills/water-security-intelligence/references/continuity.md).
+
+## Version
+
+Current repository version: **0.8.0**
+
+See [`CHANGELOG.md`](CHANGELOG.md).
