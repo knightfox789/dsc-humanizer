@@ -1,11 +1,25 @@
 # DSC Professional AI Skills
 
-Reusable GitHub-based skills for DSC professional writing and procurement review.
+Reusable GitHub-based skills for DSC professional writing, analytical communication and procurement review.
 
 ## Skills
 
 ### 1. DSC Humanizer
 The root [`SKILL.md`](SKILL.md) provides fact-safe professional rewriting, donor/technical modes and `kaushal-voice`.
+
+#### Kaushal Voice — evidence and analytical reasoning
+[`references/kaushal-voice.md`](references/kaushal-voice.md) is the evidence-first practitioner voice used for water security, agriculture, NRM, donor, technical, management and field communication.
+
+Version 0.6.0 strengthens Kaushal Voice beyond writing style. It now includes:
+- descriptive, comparative, associational, causal and projected/modelled evidence classes;
+- research-design and comparison-validity checks;
+- safeguards against causal overstatement;
+- denominator and aggregation discipline for rates and percentages;
+- explicit handling of confounders, missing variables and generalisation limits;
+- question-led data storytelling and visual selection;
+- decision-oriented analytical narrative: evidence → interpretation → limitation → next step.
+
+Reusable prompt recipes are in [`prompts/kaushal-voice.md`](prompts/kaushal-voice.md), with regression cases in [`tests/evaluation-cases.md`](tests/evaluation-cases.md).
 
 ### 2. DSC CPC Review + Procurement Intelligence
 [`skills/cpc-review/SKILL.md`](skills/cpc-review/SKILL.md) provides DSC-wide procurement review across all project states, units, programmes and funding partners.
@@ -73,7 +87,7 @@ Historical rates are benchmark signals rather than automatic price caps. Specifi
 
 ## Version
 
-Current repository version: **0.5.0**
+Current repository version: **0.6.0**
 
 See [`CHANGELOG.md`](CHANGELOG.md).
 
