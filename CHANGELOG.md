@@ -4,6 +4,25 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.6.0] - 2026-09-15
+
+### Added
+- Research-quality reasoning layer to `kaushal-voice` covering descriptive, comparative, associational, causal and projected/modelled evidence classes.
+- Explicit safeguard against strengthening claims beyond what the research design, data or calculation supports.
+- Comparison-validity checks for group selection, units, periods, indicator definitions, crop/specification differences and other material confounders.
+- Denominator and aggregation discipline for percentages, rates, per-unit indicators and village/block/programme roll-ups.
+- Guidance to distinguish observed treated-versus-untreated differences from defensible causal attribution.
+- Data-storytelling sequence: question → evidence → valid comparison → calculation → interpretation → limitation → decision implication → visual/story.
+- Visual-question-fit guidance for time series, maps, dumbbells, scatterplots, heatmaps, bars and tables.
+- New Kaushal Voice prompt modes for research-quality analysis and dashboard/data-storytelling work.
+- Regression cases covering causal overreach, denominator mismatch, weak comparison groups, temporal-vs-spatial visual choice and dashboard storytelling.
+
+### Changed
+- Expanded Kaushal Voice from an evidence-first writing profile into an evidence-first practitioner reasoning and analytical-communication profile.
+- Preferred paragraph logic now supports `Context → Action → Evidence → Meaning → Limitation → Next step` when a material limitation exists.
+- Donor, technical, management, public-article and dashboard guidance now requires clearer separation of fact, inference, uncertainty and attribution.
+- Repository version bumped to 0.6.0.
+
 ## [0.5.0] - 2026-09-11
 
 ### Added
