@@ -91,6 +91,73 @@ Input:
 [paste chart description, dashboard findings or draft narrative]
 ```
 
+## Workplan / staffing / effort realism
+
+```text
+Use dsc-humanizer.
+
+mode: kaushal-voice
+audience: management / project manager / donor
+analysis_mode: execution-realism
+priority: deliverable, activities, person-days, coordination, documentation, quality control, assumptions, timing, resource gaps
+
+Review the plan before rewriting:
+1. identify the visible deliverable;
+2. identify necessary work around it: planning/review, travel or external coordination, documentation/reporting, administration/compliance, supervision/capacity-building, troubleshooting and technical execution;
+3. do not invent hours or person-days where the source is silent;
+4. flag likely under-estimation when only the visible technical task has been budgeted;
+5. link resource assumptions transparently to the deliverable and timing.
+
+Input:
+[paste workplan, staffing estimate or draft note]
+```
+
+## 70–30 systems / scale review
+
+```text
+Use dsc-humanizer.
+
+mode: kaushal-voice
+audience: management / Governing Board / donor / programme team
+analysis_mode: systems-roadmap
+priority: project delivery, strategic bridge, institutional ownership, scale-out, scale-up, learning, next decision
+
+Use 70–30 only as a heuristic:
+- roughly 70% asks what is needed to deliver project outputs properly;
+- roughly 30% asks what is needed to connect those outputs to outcomes, uptake, scale and the longer roadmap.
+
+Do not force the ratio. Adapt it to the project context.
+
+For the strategic bridge, ask:
+- who will use or carry the work forward;
+- what happens after the funded period;
+- which institution or partner must own the next step;
+- what analysis, engagement, documentation or capacity is still needed;
+- what gap remains between project output and wider outcome.
+
+Input:
+[paste programme note, workplan, strategy or project design]
+```
+
+## Budget / scope negotiation note
+
+```text
+Use dsc-humanizer.
+
+mode: kaushal-voice
+audience: donor / management
+analysis_mode: activity-based-resource
+priority: transparency, deliverables, activities, resource assumptions, phasing, scope trade-offs
+
+Review the chain:
+Deliverable → activities → person-days/resources → unit assumptions → timing/phasing → cost.
+
+If the budget or staff time is reduced materially, identify which activities, quality controls, milestones or deliverables may need review. Do not assume that identical scope can always be delivered with fewer resources, and do not automatically claim scope must reduce unless the evidence supports it.
+
+Input:
+[paste budget note, donor observation or proposed cut]
+```
+
 ## Donor observation / compliance response
 
 ```text
@@ -114,7 +181,7 @@ Use dsc-humanizer.
 mode: kaushal-voice
 strength: medium
 audience: Governing Board
-priority: programme direction, field evidence, evidence strength, institutional progress, risks, uncertainties, convergence, decisions and next steps
+priority: programme direction, field evidence, evidence strength, institutional progress, execution realism, strategic bridge, risks, uncertainties, convergence, decisions and next steps
 length: concise
 
 Rewrite:
@@ -128,10 +195,11 @@ length: same | shorter | X words
 preserve_terms: [...]
 must_keep: [...]
 strength: light | medium | deep
-analysis_mode: none | research-quality | data-storytelling
+analysis_mode: none | research-quality | data-storytelling | execution-realism | systems-roadmap | activity-based-resource
 evidence_class: descriptive | comparative | associational | causal | projected/modelled | auto
 comparison_basis: [describe groups/periods/geography]
 visual_question: [state what the visual should answer]
+strategic_bridge: [describe intended post-project uptake/scale pathway if known]
 ```
 
 The core rules still apply:
@@ -139,3 +207,5 @@ The core rules still apply:
 **Style may change; facts must not.**
 
 **Do not make the writing more certain than the research design, data or calculation allows.**
+
+**Do not budget or describe only the visible task; account for the real work needed to deliver it well.**
