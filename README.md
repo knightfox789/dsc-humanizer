@@ -7,15 +7,20 @@ Reusable GitHub-based skills for DSC professional writing, analytical communicat
 ### 1. DSC Humanizer
 The root [`SKILL.md`](SKILL.md) provides fact-safe professional rewriting, donor/technical modes and `kaushal-voice`.
 
-#### Kaushal Voice — evidence and analytical reasoning
+#### Kaushal Voice — evidence, execution and systems reasoning
 [`references/kaushal-voice.md`](references/kaushal-voice.md) is the evidence-first practitioner voice used for water security, agriculture, NRM, donor, technical, management and field communication.
 
-Version 0.6.0 strengthens Kaushal Voice beyond writing style. It now includes:
+Version 0.7.0 combines the analytical safeguards introduced in 0.6.0 with stronger execution and systems-transition discipline. It now includes:
 - descriptive, comparative, associational, causal and projected/modelled evidence classes;
 - research-design and comparison-validity checks;
 - safeguards against causal overstatement;
 - denominator and aggregation discipline for rates and percentages;
-- explicit handling of confounders, missing variables and generalisation limits;
+- execution-realism checks so planning, coordination, documentation, supervision and troubleshooting are not omitted from effort estimates;
+- a flexible 70–30 heuristic separating direct project delivery from strategic bridge work toward uptake, continuation and scale;
+- `think roadmap, act project` logic connecting project outputs to institutional owners, next decisions and longer programme/system objectives;
+- documentation-as-delivery guidance for preserving methods, field adaptations, failures and conditional learning while work is still fresh;
+- activity-based resource logic linking deliverables, activities, person-days/resources, assumptions, phasing and cost;
+- budget/scope integrity checks when resources are reduced;
 - question-led data storytelling and visual selection;
 - decision-oriented analytical narrative: evidence → interpretation → limitation → next step.
 
@@ -87,7 +92,7 @@ Historical rates are benchmark signals rather than automatic price caps. Specifi
 
 ## Version
 
-Current repository version: **0.6.0**
+Current repository version: **0.7.0**
 
 See [`CHANGELOG.md`](CHANGELOG.md).
 
