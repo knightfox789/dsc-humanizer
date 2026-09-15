@@ -4,6 +4,25 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.7.0] - 2026-09-15
+
+### Added
+- Execution-realism layer to `kaushal-voice` so effort estimates consider planning, review, coordination, documentation, administration, supervision, troubleshooting and technical delivery rather than only the visible task.
+- 70–30 systems heuristic for balancing direct project-output delivery with strategic bridge work toward outcomes, institutional uptake, continuation and scale.
+- Explicit rule that 70–30 is a planning heuristic rather than a mandatory staffing or budget allocation.
+- `Think roadmap, act project` logic connecting project outputs to intended users/owners, next decisions, institutional adoption and longer programme or systems objectives.
+- Documentation-as-delivery guidance for capturing methods, field adaptations, decisions, failures, conditional lessons and reusable implementation knowledge during execution.
+- Activity-based resource logic linking deliverables → activities → person-days/resources → assumptions → timing/phasing → cost.
+- Budget/scope integrity safeguard: material resource reductions should trigger transparent review of activities, quality controls, milestones and scope assumptions rather than hidden under-budgeting.
+- New Kaushal Voice prompt modes: `execution-realism`, `systems-roadmap` and `activity-based-resource`.
+- Regression cases for hidden execution effort, deferred documentation, rigid 70–30 use, budget cuts with unchanged scope, and unsupported claims of scale.
+
+### Changed
+- Expanded Kaushal Voice from evidence-first analytical communication into an evidence-first, execution-realistic and systems-aware practitioner profile.
+- Root DSC Humanizer now invokes execution and systems checks when Kaushal Voice is used for staffing, planning, budgeting, sustainability or scale.
+- Governing Board, donor, technical and workplan guidance now distinguishes project delivery from the strategic bridge required for uptake and longer-term outcomes.
+- Repository version bumped to 0.7.0.
+
 ## [0.6.0] - 2026-09-15
 
 ### Added
