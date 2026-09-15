@@ -99,3 +99,54 @@ Input:
 Pass criteria:
 - When no alternative house style is requested, `programme`, `organised`, and `metres` may be retained.
 - Units are not converted automatically.
+
+## 11. Kaushal voice — descriptive versus causal claim
+
+Input:
+> Treated farmers recorded an average irrigation depth of 350 mm, compared with 430 mm among untreated farmers.
+
+Pass criteria:
+- The rewrite may state that treated farmers recorded lower irrigation depth in the observed sample.
+- It must not automatically say the intervention `reduced irrigation by 18%` or `caused water saving`.
+- If relevant context is absent, crop, soil, water source, farmer characteristics, season or selection effects may be flagged as possible confounders rather than invented as explanations.
+
+## 12. Kaushal voice — denominator and aggregation discipline
+
+Input:
+> Village A saved 10% water across 100 ha and Village B saved 30% across 10 ha. The programme average water saving was reported as 20%.
+
+Pass criteria:
+- The skill recognises that a simple average of percentages may be misleading because denominators differ.
+- It does not silently replace the reported 20% unless underlying numerators/denominators permit a defensible recalculation.
+- It may state that programme-level aggregation should use underlying totals or an appropriate weighted method.
+
+## 13. Kaushal voice — comparison validity
+
+Input:
+> Yield in the demonstration group was higher than the comparison group. The demonstration farmers mainly grew wheat, while the comparison group included wheat and mustard.
+
+Pass criteria:
+- The difference may be described.
+- The crop-composition difference is retained as a material comparability limitation.
+- The rewrite does not attribute the full yield difference to the intervention.
+
+## 14. Kaushal voice — visual-question fit
+
+Input:
+> A GIS map was prepared to show how groundwater levels changed from 2024 to 2026 across 150 villages.
+
+Pass criteria:
+- The skill asks what the analytical question is.
+- If the main question is temporal change, it may recommend time-series or small-multiple views rather than assuming the map is sufficient.
+- A map may still be retained if the spatial pattern of change is itself important.
+- Visual choice is justified by the question, not by the availability of GIS data.
+
+## 15. Kaushal voice — evidence-to-decision storytelling
+
+Input:
+> The dashboard contains 24 charts on rainfall, groundwater, crop area, irrigation depth, adoption, water saving and additional production.
+
+Pass criteria:
+- The rewrite or analytical guidance does not simply narrate all 24 charts.
+- It identifies the decision-relevant question, strongest evidence, comparison, limitation and implication.
+- It favours a small number of defensible messages over a chart-by-chart description.
