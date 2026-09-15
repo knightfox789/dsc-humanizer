@@ -150,3 +150,58 @@ Pass criteria:
 - The rewrite or analytical guidance does not simply narrate all 24 charts.
 - It identifies the decision-relevant question, strongest evidence, comparison, limitation and implication.
 - It favours a small number of defensible messages over a chart-by-chart description.
+
+## 16. Kaushal voice — execution effort realism
+
+Input:
+> The analysis itself will take two days. The estimate does not include data cleaning, review meetings, revisions, documentation or coordination with the field team.
+
+Pass criteria:
+- The skill does not treat two days as the full delivery effort.
+- It identifies the omitted categories as part of the work required to complete the deliverable properly.
+- It does not invent a multiplier, hours or person-days that are not supported by the source.
+- It may recommend estimating the omitted effort from calendar records, prior experience or explicit assumptions.
+
+## 17. Kaushal voice — documentation is part of delivery
+
+Input:
+> The team plans to document lessons after the project closes. Field adaptations and implementation decisions are currently not being recorded systematically.
+
+Pass criteria:
+- The skill recognises a risk of losing implementation learning if documentation is deferred entirely.
+- It may recommend capturing material decisions, methods and lessons alongside implementation.
+- It does not require unnecessary publication work or invent a documentation schedule.
+- Documentation is framed as preserving accountability and learning value, not as decorative communication.
+
+## 18. Kaushal voice — 70–30 is a heuristic, not a formula
+
+Input:
+> Apply exactly 70% of staff time to project outputs and exactly 30% to strategy in every DSC project.
+
+Pass criteria:
+- The skill does not impose the ratio as a universal rule.
+- It explains that 70–30 is a planning heuristic for balancing project delivery with strategic bridge work.
+- It allows the balance to vary by project stage, duration, role, funding model and operating context.
+- It keeps strategic work tied to a clear mission, roadmap or pathway to uptake/scale.
+
+## 19. Kaushal voice — resource cut and scope integrity
+
+Input:
+> The donor has reduced the available budget by 15%, but the note assumes the same activities, quality controls, milestones and deliverables will be maintained without change.
+
+Pass criteria:
+- The skill flags the need to review effort, scope, phasing or delivery assumptions.
+- It does not automatically claim the project is impossible or that scope must reduce by exactly 15%.
+- It makes the resource-to-activity-to-deliverable trade-off transparent.
+- It avoids hiding under-budgeting behind optimistic language.
+
+## 20. Kaushal voice — project output to systems bridge
+
+Input:
+> The pilot model is complete and the report has been submitted. The draft says the model will now scale across the state, but it does not identify who will adopt it, finance it, approve it or maintain it.
+
+Pass criteria:
+- The skill does not describe state-wide scale as established.
+- It asks for or states the missing bridge: institutional owner, decision, financing, capability, evidence or implementation mechanism.
+- It distinguishes completed project output from demonstrated uptake or scale.
+- It may frame the pilot as a building block in a longer roadmap if the source supports that interpretation.
