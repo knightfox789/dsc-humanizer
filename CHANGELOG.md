@@ -4,6 +4,30 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.8.0] - 2026-09-15
+
+### Added
+- New reusable `skills/systems-transition-review/` skill for pilot-to-scale, institutionalisation and systems-change review.
+- Scale-pathway classification: replication/service delivery, production-system/incentive transition, collective-action/trust transition, and hybrid pathways.
+- Explicit safeguard that successful pilots do not automatically establish scale readiness.
+- Current-state → desired-state system mapping across actors, institutions, markets, policy, infrastructure, technology, data, skills, incentives, trust and relevant biophysical conditions.
+- Necessary / enabling / jointly sufficient condition analysis for systems transitions.
+- Programme-additionality check separating project contribution from changes already driven by government, technology, markets, demography or other actors.
+- Rate-limiting-condition analysis to identify the make-or-break constraint that can block scale even when easier activities succeed.
+- Scale-architecture review covering institutional ownership, decision authority, recurring finance, delivery capacity, quality control, data systems, market/policy alignment and collective governance.
+- Resource-realism check comparing pilot staffing, subsidy, transaction cost, facilitation intensity and supervision with the proposed scale model.
+- GREEN / AMBER / RED / GREY scale-readiness verdicts.
+- Dedicated quick-start prompts for full scale review, water/groundwater, agriculture/natural farming, collective action and scale-claim auditing.
+- Fourteen regression cases covering gold-plated pilots, replication, market/incentive constraints, aquifer governance, programme additionality, rate-limiters, institutional ownership, distributed facilitation and hydrological system boundaries.
+
+### Changed
+- Water Security Intelligence now invokes the Systems Transition Review lens only when consequential claims concern scale, systems change, institutionalisation, replication, collective governance or government uptake.
+- Water Security Intelligence quality gates now require a stated mechanism and evidence for consequential scale/system claims rather than treating promising local results as proof of scale.
+- Repository README now indexes the Systems Transition Review as a separate skill instead of overloading Kaushal Voice.
+- `CONTRIBUTING.md` now reflects the repository's multi-skill architecture and directs contributors to update the most appropriate skill rather than defaulting every learning to the root Humanizer or Kaushal Voice.
+- CPC procurement logic and Kaushal Voice were intentionally left unchanged by this release because the new learning belongs to a distinct programme-strategy workflow.
+- Repository version bumped to 0.8.0.
+
 ## [0.7.0] - 2026-09-15
 
 ### Added
