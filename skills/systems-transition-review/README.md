@@ -56,6 +56,7 @@ See [`prompts/quick-start.md`](prompts/quick-start.md) for specialised prompts a
 
 ## Relationship to other repository skills
 
+- [`../systems-effectiveness-tracking/SKILL.md`](../systems-effectiveness-tracking/SKILL.md) answers the next question: how to measure whether the transition, programme and wider system are actually improving over time. For systems-change programmes, define the critical conditions here first, then convert them into measurement questions in the effectiveness-tracking skill.
 - `dsc-humanizer` / Kaushal Voice controls final professional style and evidence-safe wording.
 - `water-security-intelligence` researches and writes current sector intelligence; this review should be used when a consequential claim concerns systems change or scale.
 - `cpc-review` remains the authority for procurement review and is not changed by this skill.
