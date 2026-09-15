@@ -4,6 +4,29 @@ All notable changes to this project will be documented here.
 
 The project follows Semantic Versioning: `MAJOR.MINOR.PATCH`.
 
+## [0.9.0] - 2026-09-15
+
+### Added
+- New reusable `skills/systems-effectiveness-tracking/` skill for organisational effectiveness, programme performance, intervention MEL and wider-system/landscape measurement.
+- Four-layer measurement architecture separating organisational health, programme efficiency/delivery, intervention effectiveness and external system condition.
+- Stakeholder/decision-first indicator design so metrics are selected for the question they need to answer rather than collected by habit.
+- Results-chain mapping across inputs → activities → outputs → outcomes → impacts/system condition.
+- Explicit time-horizon and spatial-scale checks, including wet/dry-year, seasonal, plot/farm, village, aquifer, watershed, canal-command and wider-system fit.
+- Continuous/repeated-monitoring decision rules for dynamic biophysical and seasonal systems.
+- Unintended-consequence and trade-off checks, including rebound/Jevons-type effects, redistribution and zero-sum water constraints.
+- Cost-per-output, funding-leverage and SROI safeguards covering benchmark availability, attribution, deadweight, displacement, time horizon and uncertainty.
+- Data-system readiness checks covering ownership, metadata, protocols, QA, storage, privacy/ethics, analysis, versioning and archiving.
+- GREEN / AMBER / RED / GREY measurement-readiness verdicts.
+- Dedicated quick-start prompts for full MEL review, water-security MEL, indicator design, value-for-money review, systems-change progress tracking and Board dashboards.
+- Sixteen regression cases covering output/outcome confusion, farm-vs-watershed inference, seasonal timing, continuous monitoring, leverage attribution, SROI misuse, rebound, redistribution, composite-index trade-offs and data-system readiness.
+
+### Changed
+- `systems-transition-review` now explicitly hands off critical system conditions to `systems-effectiveness-tracking` when the task is to monitor whether a transition is actually occurring.
+- Systems Transition Review README now cross-links the effectiveness-tracking workflow.
+- Repository README now indexes effectiveness tracking as a separate reusable skill rather than overloading scale-readiness or Kaushal Voice.
+- Kaushal Voice, CPC procurement logic and Water Security Intelligence production rules were intentionally left unchanged by this release because the new learning belongs to a distinct measurement/MEL workflow.
+- Repository version bumped to 0.9.0.
+
 ## [0.8.0] - 2026-09-15
 
 ### Added
