@@ -1,6 +1,6 @@
 # DSC Professional AI Skills
 
-Reusable GitHub-based skills for DSC professional writing, analytical communication, programme strategy, systems-transition review and procurement intelligence.
+Reusable GitHub-based skills for DSC professional writing, analytical communication, programme strategy, systems-transition review, effectiveness tracking and procurement intelligence.
 
 ## Skills
 
@@ -106,10 +106,36 @@ It is designed to prevent a successful pilot from being labelled `scalable` with
 
 Quick prompts are in [`skills/systems-transition-review/prompts/quick-start.md`](skills/systems-transition-review/prompts/quick-start.md), with regression cases in [`skills/systems-transition-review/tests/evaluation-cases.md`](skills/systems-transition-review/tests/evaluation-cases.md).
 
-### 4. Water Security Intelligence newsletter
+### 4. DSC Systems Effectiveness Tracking
+[`skills/systems-effectiveness-tracking/SKILL.md`](skills/systems-effectiveness-tracking/SKILL.md) designs and reviews monitoring, evaluation and effectiveness systems for programmes and systems-change work.
+
+It separates four questions that should not be conflated:
+- **organisational health** — is the organisation safe and credible to invest in or partner with?;
+- **programme efficiency/delivery** — are resources being used reasonably to produce agreed work?;
+- **intervention effectiveness/MEL** — did the intervention produce the intended outcome under the conditions tested?;
+- **external system/landscape condition** — is the wider social, ecological or resource system actually improving?
+
+The skill also checks:
+- stakeholder and decision fit;
+- input → activity → output → outcome → impact mapping;
+- numerator/denominator and unit-of-analysis logic;
+- time-horizon and seasonal fit;
+- farm/village/aquifer/watershed/system scale fit;
+- continuous-monitoring needs;
+- treatment/control or comparison design where appropriate;
+- unintended consequences, rebound and redistribution;
+- cost-per-output, funding-leverage and SROI assumptions;
+- data ownership, QA, privacy, archiving and analysis capacity;
+- attribution versus contribution boundaries.
+
+It gives a **GREEN / AMBER / RED / GREY** measurement-readiness verdict. For systems-change programmes, use `systems-transition-review` first to define what must change, then use `systems-effectiveness-tracking` to define how those changes will be observed.
+
+Quick prompts are in [`skills/systems-effectiveness-tracking/prompts/quick-start.md`](skills/systems-effectiveness-tracking/prompts/quick-start.md), with regression cases in [`skills/systems-effectiveness-tracking/tests/evaluation-cases.md`](skills/systems-effectiveness-tracking/tests/evaluation-cases.md).
+
+### 5. Water Security Intelligence newsletter
 [`skills/water-security-intelligence/SKILL.md`](skills/water-security-intelligence/SKILL.md) produces Kaushal Gadariya's India-first weekly LinkedIn publication package: verified research, a 900–1,200-word article, SEO metadata and a branded cover.
 
-The newsletter now applies the Systems Transition Review lens only when a consequential story or central argument claims scale, systems change, institutionalisation, replication, collective governance or government uptake. Routine technical or service-delivery developments are not forced into a systems-change frame.
+The newsletter applies the Systems Transition Review lens only when a consequential story or central argument claims scale, systems change, institutionalisation, replication, collective governance or government uptake. Routine technical or service-delivery developments are not forced into a systems-change frame.
 
 ### Recall in a new chat
 
@@ -127,6 +153,6 @@ References: [Editorial and brand rules](skills/water-security-intelligence/refer
 
 ## Version
 
-Current repository version: **0.8.0**
+Current repository version: **0.9.0**
 
 See [`CHANGELOG.md`](CHANGELOG.md).
