@@ -313,6 +313,7 @@ For water, irrigation and natural-resource systems:
 ## Interaction with other repository skills
 
 - Use root `SKILL.md` / `kaushal-voice` for final professional writing style if requested, but this skill owns the scale-readiness reasoning.
+- Use `systems-effectiveness-tracking` when the question is how to monitor whether the transition, programme or wider system is actually improving over time. For systems-change programmes, use this skill first to define the critical conditions and scale architecture, then hand those conditions to effectiveness tracking as measurement questions.
 - Use `water-security-intelligence` for current sector research/news; apply this skill when that work makes consequential claims about systems change, institutionalisation or scale.
 - Do not use this skill to alter CPC procurement verdicts unless a procurement task explicitly includes programme-scale strategy; ordinary procurement review remains under `cpc-review`.
 
