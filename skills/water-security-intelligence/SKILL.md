@@ -14,6 +14,7 @@ This is the author's newsletter; hosting this skill in DSC Humanizer does not im
 
 Read references/editorial-and-brand.md before producing an edition or poster. Read references/continuity.md before selecting stories.
 When available, apply the repository root SKILL.md and references/kaushal-voice.md for the final style pass. Their rewriting-only limits do not replace this skill's authorised research workflow; fact preservation always applies.
+When an edition makes a consequential claim about scale, systems change, institutionalisation, replication, collective governance or government uptake, apply the sibling [`systems-transition-review`](../systems-transition-review/SKILL.md) lens before finalising that claim. Do not force a systems-change frame onto stories that are primarily service delivery, routine implementation or technical updates.
 
 ## Invocation and autonomy
 Default request: "Use water-security-intelligence to create the next complete publication package."
@@ -60,6 +61,16 @@ Synthesise the selected developments into four themes; avoid a disguised news li
 For each theme explain: what changed, why it matters, and what a practitioner should do differently.
 Distinguish confirmed facts, reported claims, forecast probabilities and the author's operational interpretation.
 Protect distinctions: rainfall vs recharge; storage vs allocable water vs reliable service; abstraction balance vs water-level depth; activity vs output vs outcome vs impact; policy intention vs funded implementation.
+
+When the argument concerns scale or systems change, add a short internal scale check before drafting the claim:
+- What form of scale is being discussed: replication, production/incentive transition, collective-action transition, or a hybrid?
+- What has actually been demonstrated versus what is projected?
+- Which system condition or institutional decision must change next?
+- What is the likely rate-limiting constraint?
+- Is another government, market, technology or civil-society process already driving the same change?
+- Who would own, finance and deliver the change at scale?
+
+Use the full `systems-transition-review` skill when the scale claim is central to the edition. Do not publish a `systems change` or `scalable` headline merely because a pilot, training programme or technology has produced promising local results.
 
 ## 4. Write the article (900–1,200 words)
 Count the article from headline through About, excluding SEO, poster text, ledger and delivery notes.
@@ -110,6 +121,7 @@ Verify:
 - current warnings and future milestones valid as of delivery;
 - four numbered themes and exactly four actions;
 - practical independent voice and no unsupported causal claims;
+- any consequential `scale`, `systems change`, `institutionalised`, `replicated` or `government uptake` claim has a stated mechanism and evidence, with unresolved conditions qualified;
 - article word count, SEO lengths, exact About text;
 - visible poster spelling, legibility, logo fidelity and actual dimensions;
 - no old draft represented as published, no invented logo and no false verification claim.
