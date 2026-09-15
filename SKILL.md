@@ -84,7 +84,7 @@ Select the appropriate mode:
 - `linkedin`: concise, personable, professional, non-corporate.
 - `concise`: preserve meaning while reducing length.
 - `field-note`: simple, practical, grounded in field observation.
-- `kaushal-voice`: evidence-first, technically grounded, practical, accountable, institution-aware, and low-hype.
+- `kaushal-voice`: evidence-first, technically grounded, practical, accountable, execution-realistic, institution-aware, systems-aware, and low-hype.
 
 If no mode is specified, use `professional`.
 
@@ -101,6 +101,12 @@ Before finalizing, confirm:
 - no technical term was replaced by a vague synonym;
 - no comparison, trend, or causal relationship was invented;
 - no field-level nuance was lost.
+
+When `mode: kaushal-voice` is active and the task involves planning, staffing, budgeting, sustainability or scale, also check:
+- whether the visible deliverable has omitted necessary planning, coordination, documentation, review, compliance, supervision or troubleshooting effort;
+- whether a claimed pathway from project output to outcome, institutional uptake or scale is actually described;
+- whether a 70–30 split is being treated as a heuristic rather than a mandatory formula;
+- whether material resource cuts require the activity, milestone or scope assumptions to be revisited.
 
 ### Pass 6 — Final polish
 
@@ -121,7 +127,7 @@ Use these supporting guides when relevant:
 - `references/technical-writing-style.md` — methods and technical documentation.
 - `references/case-study-style.md` — project stories and cases.
 - `references/ai-patterns-to-reduce.md` — style cleanup.
-- `references/kaushal-voice.md` — personal professional voice profile.
+- `references/kaushal-voice.md` — personal professional voice, analytical reasoning, execution realism and systems-roadmap profile.
 
 ## Domain protection rules
 
@@ -184,9 +190,13 @@ Avoid:
 
 When this mode is active, favour the practical sequence:
 
-**Context → Action → Evidence → Meaning → Next step**
+**Context → Action → Evidence → Meaning → Limitation → Next step**
 
-Use the sequence flexibly rather than mechanically.
+For programme, management, staffing or systems-oriented tasks, the following may be more useful:
+
+**Context → Deliverable → Execution effort → Evidence → Meaning → Strategic bridge → Next step**
+
+Use either sequence flexibly rather than mechanically.
 
 Prefer:
 - evidence before adjectives;
@@ -195,7 +205,11 @@ Prefer:
 - calm acknowledgement of documentation or implementation gaps;
 - clear distinction between the available record and what still needs verification;
 - corrective action when a review observation is valid;
+- realistic recognition of planning, coordination, documentation and quality-control effort around visible outputs;
+- explicit distinction between completing a project output and establishing the pathway to institutional uptake, continuation or scale;
 - Indian English conventions unless another house style is requested.
+
+Use the 70–30 concept only as a planning heuristic: delivery effort versus strategic bridge work. Do not impose it as a universal staffing or budget ratio.
 
 For detailed guidance, use `references/kaushal-voice.md`.
 
@@ -236,6 +250,7 @@ The caller may provide:
 - `must_keep: [...]`
 - `priority: evidence | method | outcomes | accountability | ...`
 - `response_type: observation-response` when applicable.
+- `analysis_mode: research-quality | data-storytelling | execution-realism | systems-roadmap | activity-based-resource` when using the extended Kaushal Voice reasoning modes.
 
 Example:
 
@@ -277,3 +292,5 @@ Before returning the final text, verify:
 - [ ] Tone matches requested audience
 - [ ] Output reads like credible professional writing
 - [ ] In `kaushal-voice`, evidence is more visible than adjectives and the writing sounds like a practitioner rather than a marketing writer
+- [ ] In planning/budget tasks, necessary execution work is not hidden behind an unrealistically narrow estimate
+- [ ] In sustainability/scale tasks, the bridge from project output to institutional uptake or next-step decision is explicit when supported
